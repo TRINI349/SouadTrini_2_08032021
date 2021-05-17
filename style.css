@@ -1,0 +1,1325 @@
+@import url("https://fonts.googleapis.com/css2? family = Raleway: ital,wght @ 1100 & display = swap");
+
+body {
+  width: 1150px;
+  height: 1300px;
+  font-family: "Raleway", sans-serif;
+}
+
+#bloc-page {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 20px 20px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  /*padding-left: 20px;*/
+  padding-right: 120px;
+  padding-top: 10px;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+  padding: 27px;
+}
+#inscription {
+  display: inline;
+  position: relative;
+  left: 70%;
+  bottom: 35px;
+  color: #0065fc;
+}
+
+.logo-reservia {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lieux {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  padding: 0.5% 0.5%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+input {
+  width: 160px;
+  height: 29px;
+  display: inline-flex;
+  position: relative;
+  right: 5px;
+  bottom: 1.5px;
+  border: 1px solid #f2f2f2;
+}
+
+button {
+  width: 90px;
+  height: 29px;
+  position: relative;
+  right: 10px;
+  bottom: 6px;
+  display: inline-flex;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #f2f2f2;
+  background: #0065fc;
+  cursor: pointer;
+  color: #fff;
+  align-items: center;
+  font-size: 13px;
+}
+
+#search
+{
+  display: none;
+}
+
+/**********************************filtres*********************/
+
+#bloc-filtres {
+  flex-direction: row;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#filtres-titres {
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+#trie ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#trie li {
+  padding-right: 20px;
+}
+
+#trie i {
+  color: #0065fc;
+  border: 1px solid #deebff;
+  border-radius: 30px;
+  background-color: #deebff;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+#trie a {
+  color: black;
+  text-decoration: none;
+}
+
+#trie a:hover {
+  color: #0065fc;
+}
+
+#eco,
+#famille,
+#romantique,
+#animaux-autorises {
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+#argent,
+#enfant,
+#coeur,
+#animaux {
+  text-align: center;
+  padding-top: 2px;
+}
+
+#information
+{
+  display: flex;
+  
+}
+
+#icone-info
+{
+  width: 13px;
+  height: 10px;
+  margin-right: 10px;
+  border: 1px solid #deebff;
+  color: #0065fc;
+  border-radius: 50%;
+  padding: 2px 2px;
+  font-size: 10px;
+  position: relative;
+  top: 15px;
+  
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  line-height: 5px;
+  font-size: 16px;
+}
+/***************************hebergements*****************/
+#hebergements {
+  width: 680px;
+  height: 450px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 13px;
+  margin-left: 20px;
+}
+
+#hebergements h2 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.carte {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#encarts {
+  position: relative;
+  right: 20px;
+  bottom: 10px;
+}
+
+#hebergements img {
+  width: 180px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+#fig1 {
+  margin-left: 25px;
+  margin-right: 5px;
+  border: 1px solid #f2f2f2;
+  padding: 3px 3px 3px 3px;
+  background-color: #fff;
+  border-radius: 13px;
+}
+
+#fig2,
+#fig3 {
+  margin-left: 25px;
+  margin-right: 5px;
+  border: 1px solid #f2f2f2;
+  padding: 3px 3px 3px 3px;
+  background-color: #fff;
+  border-radius: 13px;
+}
+
+#fig4,
+#fig5,
+#fig6 {
+  height: 150;
+  margin-left: 25px;
+  margin-right: 5px;
+  border: 1px solid #f2f2f2;
+  padding: 3px 3px 3px 3px;
+  background-color: #fff;
+  border-radius: 13px;
+}
+
+#bloc456,
+#bloc123 {
+  margin-left: 15px;
+  display: flex;
+  position: relative;
+  bottom: 5px;
+}
+
+#etoile-bleu1,
+#etoile-bleu2,
+#etoile-bleu3,
+#etoile-bleu4,
+#etoile-bleu5,
+#etoile-bleu6,
+#etoile-bleu7,
+#etoile-bleu8,
+#etoile-bleu9 {
+  color: #0065fc;
+}
+
+#etoile_grise1 i,
+#etoile_grise3 i,
+#etoile_grise4 i,
+#etoile_grise5 i,
+#etoile_grise8 i,
+#etoile_grise9 i {
+  color: grey;
+}
+
+#legend1,
+#legend2,
+#legend3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  background-color: #fff;
+  text-align: start;
+  font-size: 12px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  color: black;
+}
+
+#legend4,
+#legend5,
+#legend6 {
+  height: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  background-color: #fff;
+  text-align: start;
+  font-size: 12px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  color: black;
+}
+
+.plus {
+  position: relative;
+  bottom: 25px;
+  left: 20px;
+}
+/****************************** aside************************/
+
+#populaires {
+  width: 300px;
+  height: 450px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 13px;
+  display: block;
+  margin: auto;
+  position: relative;
+  left: 350px;
+  bottom: 450px;
+}
+
+#entete {
+  width: 300px;
+  height: 50px;
+}
+
+#titre {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+#graph {
+  width: 20px;
+  height: 19px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+  left: 260px;
+}
+
+#fig7 img {
+  width: 101px;
+  height: 101px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  padding: 3px 0px 3px 3px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  background-color: #fff;
+}
+
+#legend7 {
+  width: 140px;
+  height: 95px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  padding-left: 8px;
+  padding-top: 8px;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  right: 4px;
+  padding-bottom: 4px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+#card1 {
+  margin: 1px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin-bottom: 15px;
+}
+
+#fig8 img {
+  width: 101px;
+  height: 101px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  padding: 3px 0px 3px 3px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  background-color: #fff;
+}
+
+#legend8 {
+  width: 140px;
+  height: 95px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  padding-left: 8px;
+  padding-top: 8px;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  right: 4px;
+  padding-bottom: 4px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+#card2 {
+  margin: 1px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin-bottom: 15px;
+}
+
+#fig9 img {
+  width: 101px;
+  height: 101px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  padding: 3px 0px 3px 3px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  background-color: #fff;
+}
+
+#legend9 {
+  width: 140px;
+  height: 95px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  padding-left: 8px;
+  padding-top: 8px;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  right: 4px;
+  padding-bottom: 4px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+#card3 {
+  margin: 1px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  margin-bottom: 15px;
+}
+
+/****************************activites**************************/
+
+#activites {
+  margin-left: 5px;
+
+  position: relative;
+  bottom: 425px;
+  right: 22px;
+}
+
+#activitesmarseille {
+  position: relative;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#bloc1,
+#bloc3 {
+  display: inline-flex;
+}
+
+#bloc2,
+#bloc4 {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 175px;
+  justify-content: space-between;
+}
+
+#chem1,
+#chem4 {
+  width: 220px;
+  height: 280px;
+  margin-right: 40px;
+  box-shadow: 1px 1px 10px #f2f2f2;
+}
+
+#chem2,
+#chem3 {
+  width: 220px;
+  height: 127px;
+  margin-right: 0px;
+  margin-left: 0px;
+  position: relative;
+  top: 11px;
+  box-shadow: 1px 1px 10px #f2f2f2;
+}
+
+#chem5,
+#chem6 {
+  width: 224px;
+  height: 127px;
+  margin-left: 10px;
+  position: relative;
+  top: 12px;
+  box-shadow: 1px 1px 10px #f2f2f2;
+}
+
+/*************taille photos****************/
+
+#fort_de_pomegues,
+#ile_de_frioul,
+#notre_dame_de_la_garde,
+#parc_longchamp {
+  width: 220px;
+  height: 90px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+#vieux_port,
+#parc_national_des_calanques {
+  width: 220px;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border: 1px solid #f2f2f2;
+}
+
+/************** Figcaption*******************/
+
+#leg1,
+#leg2,
+#leg3,
+#leg4,
+#leg5,
+#leg6 {
+  width: 210px;
+  height: 30px;
+  border: 1px solid #f2f2f2;
+  position: relative;
+  bottom: 4.5px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  background-color: #fff;
+  font-size: 12px;
+  text-indent: 0px;
+  padding-left: 10px;
+  padding-top: 7px;
+  color: black;
+}
+
+/*footer*/
+
+#renseignements {
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  bottom: 520px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+#apropos {
+  margin-right: 0px;
+  margin-left: 5px;
+  line-height: 20px;
+}
+
+#apropos h3 {
+  font-size: 15px;
+  font-family: raleway;
+  position: relative;
+  left: 20px;
+}
+
+#apropos ul {
+  list-style-type: none;
+  position: relative;
+  right: 20px;
+}
+#apropos li {
+  font-size: 14px;
+}
+#apropos li :hover {
+  color: #0065fc;
+}
+
+#apropos a {
+  color: black;
+}
+
+#heb {
+  margin-right: 40px;
+  line-height: 20px;
+}
+
+#heb {
+  color: black;
+  font-size: 15px;
+}
+
+#heb ul {
+  list-style-type: none;
+  position: relative;
+  right: 40px;
+}
+#heb li {
+  color: black;
+  font-size: 14px;
+}
+
+#heb li :hover {
+  color: #0065fc;
+}
+
+#heb a {
+  color: black;
+}
+
+#assistance {
+  margin-right: 100px;
+  line-height: 20px;
+}
+
+#assistance h3 {
+  color: black;
+  font-size: 15px;
+  position: relative;
+  right: 40px;
+}
+
+#assistance ul {
+  list-style-type: none;
+  position: relative;
+  right: 80px;
+}
+
+#assistance li {
+  font-size: 14px;
+}
+
+#assistance li :hover {
+  color: #0065fc;
+}
+
+#assistance a {
+  color: black;
+}
+
+/*------------------------------------------------ partie mobile----------------------------------------------- */
+
+@media all and (max-width: 699px) {
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #bloc_page {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logo-reservia {
+    margin-bottom: 20px;
+  }
+
+  .logo-reservia img {
+    width: 150%;
+  }
+
+  .ancres {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #inscription {
+    display: block;
+    margin-right: 10px;
+    position: static;
+    color: #0065fc;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav li {
+    text-align: center;
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+
+  nav span {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
+
+  nav a:hover {
+    padding-top: 37px;
+  }
+
+  nav li a:hover {
+    border-top: none;
+  }
+
+  nav li:hover {
+    border-color: #0065fc;
+    color: #0065fc;
+  }
+
+  .champ-de-saisie {
+    margin-left: 10px;
+  }
+
+  .lieux {
+    width: 10%;
+    height: 25px;
+    flex-direction: column;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  button {
+    width: 15%;
+    flex-wrap: nowrap;
+    position: relative;
+    bottom: 5px;
+    right: 20px;
+  }
+
+  #text_rechercher
+  {
+    display: none;
+  }
+
+  #search 
+  {
+    display: initial;
+  }
+
+  h1 {
+    width: 240px;
+    line-height: 20px;
+  }
+
+  /*****************Filtres******************/
+  #bloc-filtres {
+    flex-wrap: wrap;
+    height: 160px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  #trie ul {
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+
+  #trie li {
+    margin-bottom: 10px;
+  }
+
+  #filtres-titre {
+    margin-bottom: 20px;
+  }
+
+  #information {
+    margin-right: 2px;
+  }
+
+  /****************************hebergements********************/
+  #hebergements {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 1170px;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    top: 500px;
+  }
+
+  #hebergements_a_marseille {
+    position: relative;
+    top: 30px;
+    line-height: 25px;
+  }
+
+  #encarts {
+    position: relative;
+    top: 35px;
+  }
+
+  #bloc123 {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 0px;
+    bottom: 0px;
+    margin-left: 0px;
+  }
+
+  #bloc456 {
+    display: block;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  #legend4,
+  #legend6 {
+    height: 45px;
+  }
+
+  #fig1,
+  #fig2,
+  #fig3,
+  #fig4,
+  #fig5,
+  #fig6 {
+    width: 320px;
+    box-shadow: 0px 0px 4px 5px #f2f2f2;
+  }
+
+  #hebergements img {
+    width: 318px;
+  }
+
+  .plus {
+    position: static;
+    font-size: 25px;
+  }
+
+  /*******************aside******************/
+  #populaires {
+    width: 390px;
+    height: 520px;
+    position: absolute;
+    top: 850px;
+    left: 0;
+    bottom: 0;
+    border-radius: 0px 0px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  #entete {
+    width: 100%;
+  }
+
+  #graph i {
+    position: relative;
+    left: 60px;
+    bottom: 15px;
+    font-size: 28px;
+  }
+
+  #fig7 img,
+  #fig8 img,
+  #fig9 img {
+    width: 160px;
+    height: 120px;
+  }
+
+  #legend7,
+  #legend8,
+  #legend9 {
+    width: 160px;
+    height: 115px;
+  }
+  /************************activites*******************/
+
+  #activities {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 0px;
+    margin: 0px;
+  }
+
+  #activitesmarseille {
+    position: relative;
+    top: 870px;
+    font-size: 25px;
+  }
+
+  #bloc1,
+  #bloc2,
+  #bloc3,
+  #bloc4 {
+    width: 324;
+    height: 204;
+    position: relative;
+    top: 850px;
+  }
+
+  #bloc2 {
+    margin-left: 40px;
+  }
+
+  #bloc4 {
+    margin-left: 30px;
+  }
+
+  #activitesmarseille {
+    margin-left: 25px;
+  }
+
+  #vieux_port,
+  #parc_national_des_calanques,
+  #fort_de_pomegues,
+  #ile_de_frioul,
+  #notre_dame_de_la_garde,
+  #parc_longchamp {
+    height: 160px;
+    width: 320px;
+  }
+
+  #leg1,
+  #leg2,
+  #leg3,
+  #leg4,
+  #leg5,
+  #leg6 {
+    width: 310px;
+  }
+
+  #chem1,
+  #chem2,
+  #chem3,
+  #chem4,
+  #chem5,
+  #chem6 {
+    width: 320px;
+    height: 201px;
+    border-radius: 13px 13px 13px 13px;
+  }
+
+  /***********************Footer**************************/
+
+  #renseignements {
+    display: grid;
+    flex-direction: column;
+    width: 390px;
+    position: relative;
+    top: 460px;
+  }
+
+  #apropos,
+  #heb {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 40px;
+  }
+
+  #assistance {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+  }
+}
+
+/*************************************Tablette*******************************************/
+
+@media all and (min-width: 700px) and (max-width: 1024px) {
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #bloc_page {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logo-reservia {
+    margin-bottom: 20px;
+  }
+
+  .logo-reservia img {
+    width: 150%;
+  }
+
+  .ancres {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #inscription {
+    display: block;
+    margin-right: 50px;
+    position: static;
+    color: #0065fc;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav li {
+    text-align: center;
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+
+  nav span {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
+
+  nav a:hover {
+    padding-top: 37px;
+  }
+
+  nav li a:hover {
+    border-top: none;
+  }
+
+  nav li:hover {
+    border-color: #0065fc;
+    color: #0065fc;
+  }
+
+  .champ-de-saisie {
+    margin-left: 10px;
+  }
+
+  .lieux {
+    width: 2%;
+    height: 25px;
+    flex-direction: column;
+  }
+
+  input {
+    width: 40%;
+  }
+
+  button {
+    width: 15%;
+    flex-wrap: nowrap;
+    position: relative;
+    bottom: 5px;
+    right: 20px;
+  }
+
+  h1 {
+    width: 500px;
+    line-height: 20px;
+  }
+
+  /***********filtres*/
+
+  #bloc-filtres {
+    flex-wrap: wrap;
+  }
+
+  #trie ul {
+    flex-wrap: wrap;
+  }
+
+  #trie li {
+    margin-bottom: 10px;
+  }
+
+  #filtres-titre {
+    margin-bottom: 20px;
+  }
+
+  /****************************hebergements********************/
+  #hebergements {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 1170px;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    top: 500px;
+  }
+
+  #hebergements_a_marseille {
+    position: relative;
+    top: 30px;
+  }
+
+  #encarts {
+    position: relative;
+    top: 35px;
+  }
+
+  #bloc123 {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 0px;
+    bottom: 0px;
+    margin-left: 0px;
+  }
+
+  #bloc456 {
+    display: block;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  #legend4,
+  #legend6 {
+    height: 45px;
+  }
+
+  #fig1,
+  #fig2,
+  #fig3,
+  #fig4,
+  #fig5,
+  #fig6 {
+    width: 670px;
+    box-shadow: 0px 0px 4px 5px #f2f2f2;
+  }
+
+  #hebergements img {
+    width: 670px;
+  }
+
+  .plus {
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+  }
+
+  /*******************aside******************/
+  #populaires {
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    top: 600px;
+    left: 0;
+    bottom: 0;
+    border-radius: none;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  #entete {
+    width: 100%;
+  }
+
+  #graph i {
+    position: relative;
+    left: 60px;
+    bottom: 15px;
+    font-size: 28px;
+  }
+
+  #fig7 img,
+  #fig8 img,
+  #fig9 img {
+    width: 500px;
+    height: 120px;
+  }
+
+  #legend7,
+  #legend8,
+  #legend9 {
+    width: 160px;
+    height: 115px;
+  }
+  /************************activites*******************/
+
+  #activities {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 0px;
+    margin: 0px;
+  }
+
+  #activitesmarseille {
+    position: relative;
+    top: 895px;
+    font-size: 25px;
+  }
+
+  #bloc1,
+  #bloc2,
+  #bloc3,
+  #bloc4 {
+    width: 324;
+    height: 204;
+    position: relative;
+    top: 900px;
+  }
+
+  #bloc2 {
+    margin-left: 40px;
+  }
+
+  #bloc4 {
+    margin-left: 30px;
+  }
+
+  #activitesmarseille {
+    margin-left: 25px;
+  }
+
+  #vieux_port,
+  #parc_national_des_calanques,
+  #fort_de_pomegues,
+  #ile_de_frioul,
+  #notre_dame_de_la_garde,
+  #parc_longchamp {
+    height: 160px;
+    width: 670px;
+  }
+
+  #leg1,
+  #leg2,
+  #leg3,
+  #leg4,
+  #leg5,
+  #leg6 {
+    width: 665px;
+    padding-left: 5px;
+  }
+
+  #chem1,
+  #chem2,
+  #chem3,
+  #chem4,
+  #chem5,
+  #chem6 {
+    width: 665px;
+    height: 201px;
+    border-radius: 13px 13px 13px 13px;
+  }
+
+  /***********************Footer**************************/
+
+  #renseignements {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: relative;
+    top: 510px;
+  }
+
+  #apropos,
+  #heb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 40px;
+    margin-bottom: 25px;
+  }
+
+  #assistance {
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 80px;
+  }
+}
