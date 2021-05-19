@@ -100,18 +100,19 @@ button {
   font-size: 13px;
 }
 
-#search
-{
+#search {
   display: none;
 }
 
 /**********************************filtres*********************/
 
 #bloc-filtres {
+  display: flex;
   flex-direction: row;
   font-weight: bold;
   margin-top: 10px;
 }
+
 #filtres-titres {
   padding-top: 10px;
   margin-right: 20px;
@@ -163,14 +164,13 @@ button {
   padding-top: 2px;
 }
 
-#information
-{
+#information {
   display: flex;
-  
+  font-size: 15px;
+  padding-top: 20px;
 }
 
-#icone-info
-{
+#icone-info {
   width: 13px;
   height: 10px;
   margin-right: 10px;
@@ -181,7 +181,7 @@ button {
   font-size: 10px;
   position: relative;
   top: 15px;
-  
+  text-align: center;
 }
 
 h1,
@@ -193,7 +193,7 @@ h2 {
 /***************************hebergements*****************/
 #hebergements {
   width: 680px;
-  height: 450px;
+  height: 455px;
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
   border-radius: 13px;
@@ -317,7 +317,7 @@ h2 {
 
 .plus {
   position: relative;
-  bottom: 25px;
+  top: 5px;
   left: 20px;
 }
 /****************************** aside************************/
@@ -462,8 +462,7 @@ h2 {
 /****************************activites**************************/
 
 #activites {
-  margin-left: 5px;
-
+  display:inline-block;
   position: relative;
   bottom: 425px;
   right: 22px;
@@ -569,11 +568,12 @@ h2 {
 
 /*footer*/
 
-#renseignements {
+footer {
   width: 1150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 30px;
   position: relative;
   bottom: 520px;
   border: 1px solid #f2f2f2;
@@ -586,7 +586,8 @@ h2 {
   line-height: 20px;
 }
 
-#apropos h3 {
+#apropos h4 {
+  color: black;
   font-size: 15px;
   font-family: raleway;
   position: relative;
@@ -614,7 +615,7 @@ h2 {
   line-height: 20px;
 }
 
-#heb {
+#heb h4{
   color: black;
   font-size: 15px;
 }
@@ -642,7 +643,7 @@ h2 {
   line-height: 20px;
 }
 
-#assistance h3 {
+#assistance h4 {
   color: black;
   font-size: 15px;
   position: relative;
@@ -766,13 +767,11 @@ h2 {
     right: 20px;
   }
 
-  #text_rechercher
-  {
+  #text_rechercher {
     display: none;
   }
 
-  #search 
-  {
+  #search {
     display: initial;
   }
 
@@ -799,7 +798,9 @@ h2 {
   }
 
   #filtres-titre {
-    margin-bottom: 20px;
+    
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 
   #information {
@@ -862,17 +863,12 @@ h2 {
     width: 318px;
   }
 
-  .plus {
-    position: static;
-    font-size: 25px;
-  }
-
   /*******************aside******************/
   #populaires {
     width: 390px;
     height: 520px;
     position: absolute;
-    top: 850px;
+    top: 800px;
     left: 0;
     bottom: 0;
     border-radius: 0px 0px;
@@ -920,7 +916,7 @@ h2 {
 
   #activitesmarseille {
     position: relative;
-    top: 870px;
+    top: 880px;
     font-size: 25px;
   }
 
@@ -978,17 +974,17 @@ h2 {
 
   /***********************Footer**************************/
 
-  #renseignements {
-    display: grid;
+ footer{
+    /*display: grid;*/
     flex-direction: column;
-    width: 390px;
+    /*width: 390px;
     position: relative;
-    top: 460px;
+    top: 460px;*/
   }
 
   #apropos,
   #heb {
-    display: grid;
+    /*display: grid;*/
     flex-direction: column;
     justify-content: center;
     margin-left: 0px;
@@ -999,8 +995,9 @@ h2 {
   #assistance {
     flex-direction: column;
     align-items: center;
-    padding-left: 80px;
+    padding-left:30px;
   }
+
 }
 
 /*************************************Tablette*******************************************/
@@ -1298,7 +1295,7 @@ h2 {
 
   /***********************Footer**************************/
 
-  #renseignements {
+  footer {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
