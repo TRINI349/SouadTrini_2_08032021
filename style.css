@@ -588,8 +588,7 @@ footer {
 
 #apropos h4 {
   color: black;
-  font-size: 15px;
-  font-family: raleway;
+  font-size: 13px;
   position: relative;
   left: 20px;
 }
@@ -599,15 +598,24 @@ footer {
   position: relative;
   right: 20px;
 }
-#apropos li {
+#apropos li,
+#heb li,
+#assistance li {
   font-size: 14px;
+  color: black;
 }
-#apropos li :hover {
+
+#apropos li :hover,
+#heb li :hover,
+#assistance li :hover {
   color: #0065fc;
 }
 
-#apropos a {
+#apropos a,
+#heb a,
+#assistance a {
   color: black;
+  font-size: 12px;
 }
 
 #heb {
@@ -615,27 +623,15 @@ footer {
   line-height: 20px;
 }
 
-#heb h4{
+#heb h4 {
   color: black;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 #heb ul {
   list-style-type: none;
   position: relative;
   right: 40px;
-}
-#heb li {
-  color: black;
-  font-size: 14px;
-}
-
-#heb li :hover {
-  color: #0065fc;
-}
-
-#heb a {
-  color: black;
 }
 
 #assistance {
@@ -645,7 +641,7 @@ footer {
 
 #assistance h4 {
   color: black;
-  font-size: 15px;
+  font-size: 13px;
   position: relative;
   right: 40px;
 }
@@ -654,18 +650,6 @@ footer {
   list-style-type: none;
   position: relative;
   right: 80px;
-}
-
-#assistance li {
-  font-size: 14px;
-}
-
-#assistance li :hover {
-  color: #0065fc;
-}
-
-#assistance a {
-  color: black;
 }
 
 /*------------------------------------------------ partie mobile----------------------------------------------- */
@@ -798,7 +782,6 @@ footer {
   }
 
   #filtres-titre {
-    
     margin-top: 30px;
     margin-bottom: 0px;
   }
@@ -974,30 +957,33 @@ footer {
 
   /***********************Footer**************************/
 
- footer{
-    /*display: grid;*/
+  footer {
+    display: grid;
     flex-direction: column;
-    /*width: 390px;
+    width: 390px;
     position: relative;
-    top: 460px;*/
+    top: 460px;
   }
 
-  #apropos,
-  #heb {
-    /*display: grid;*/
+  #apropos {
+    display: grid;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-right: 40px;
+    justify-content: flex-start;
+  }
+
+  #heb {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
   }
 
   #assistance {
+    display: grid;
     flex-direction: column;
-    align-items: center;
-    padding-left:30px;
+    justify-content: flex-start;
+    margin-left: 65px;
   }
-
 }
 
 /*************************************Tablette*******************************************/
@@ -1179,8 +1165,8 @@ footer {
 
   .plus {
     position: relative;
-    top: 30px;
-    font-size: 25px;
+    top: 20px;
+    font-size: 17px;
   }
 
   /*******************aside******************/
