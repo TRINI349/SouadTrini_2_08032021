@@ -249,7 +249,6 @@ h2 {
 #fig4,
 #fig5,
 #fig6 {
-  height: 150px;
   margin-left: 25px;
   margin-right: 5px;
   border: 1px solid #f2f2f2;
@@ -258,20 +257,13 @@ h2 {
   border-radius: 13px;
 }
 
-#bloc123 {
+#bloc123,
+#bloc456
+{
   margin-left: 15px;
   display: flex;
   position: relative;
-  bottom: 5px;
-}
-
-#bloc456
-{
-  margin-left: 2px;
-  display: flex;
-  position: relative;
-  bottom: 5px;
-  
+  bottom: 5px; 
 }
 
 #etoile-bleu1,
@@ -297,24 +289,11 @@ h2 {
 
 #legend1,
 #legend2,
-#legend3 {
-  height: 65px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 7px;
-  background-color: #fff;
-  text-align: start;
-  font-size: 12px;
-  border-bottom-left-radius: 13px;
-  border-bottom-right-radius: 13px;
-  color: black;
-  line-height: 5px;
-}
-
+#legend3,
 #legend4,
 #legend5,
 #legend6 {
-  height: 65px;
+  
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 7px;
@@ -329,9 +308,10 @@ h2 {
 
 .plus {
   position: relative;
-  top: 5px;
-  left: 30px;
+  bottom: 15px;
+  left: 15px;
 }
+
 /****************************** aside************************/
 
 #populaires {
@@ -415,7 +395,7 @@ h2 {
 #activites {
   display: block;
   position: relative;
-  bottom: 425px;
+  bottom: 400px;
   right: 22px;
 }
 
@@ -746,7 +726,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
-    height: 1170px;
+    height: 1250px;
     background-color: #fff;
     border: none;
     position: relative;
@@ -777,6 +757,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 0px;
+
   }
 
   #legend4,
@@ -793,10 +774,16 @@ footer {
   #fig6 {
     width: 320px;
     box-shadow: 0px 0px 4px 5px #f2f2f2;
+    margin-top: 10px;
+    margin-bottom: 17px;
   }
 
   #hebergements img {
     width: 318px;
+  }
+
+  .plus{
+    top: 5px;
   }
 
   /*******************aside******************/
@@ -852,7 +839,7 @@ footer {
 
   #activitesmarseille {
     position: relative;
-    top: 880px;
+    top: 830px;
     font-size: 25px;
   }
 
@@ -863,7 +850,7 @@ footer {
     width: 324px;
     height: 204px;
     position: relative;
-    top: 850px;
+    top: 800px;
   }
 
   #bloc2 {
@@ -872,6 +859,11 @@ footer {
 
   #bloc4 {
     margin-left: 30px;
+  }
+
+  #bloc3
+  {
+    margin-top: 260px;
   }
 
   #activitesmarseille {
@@ -915,7 +907,7 @@ footer {
     flex-direction: column;
     width: 390px;
     position: relative;
-    top: 460px;
+    top: 750px;
   }
 
   #apropos {
