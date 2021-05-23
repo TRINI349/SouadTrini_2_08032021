@@ -967,7 +967,7 @@ footer {
 
   #inscription {
     display: block;
-    margin-right: 50px;
+    margin-right: 30px;
     position: static;
     color: #0065fc;
   }
@@ -1057,7 +1057,7 @@ footer {
   #hebergements {
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
+    width: 80%;
     height: 1170px;
     background-color: #fff;
     border: none;
@@ -1087,11 +1087,9 @@ footer {
     display: block;
     flex-direction: column;
     margin-left: 0px;
-  }
+    bottom: 0px;
+    margin-bottom: 0px;
 
-  #legend4,
-  #legend6 {
-    height: 45px;
   }
 
   #fig1,
@@ -1100,29 +1098,29 @@ footer {
   #fig4,
   #fig5,
   #fig6 {
-    width: 670px;
+    width: 870px;
     box-shadow: 0px 0px 4px 5px #f2f2f2;
   }
 
   #hebergements img {
-    width: 670px;
+    width: 870px;
+    height: 150px;
   }
 
   .plus {
     position: relative;
-    top: 20px;
+    top: 15px;
     font-size: 17px;
   }
 
   /*******************aside******************/
   #populaires {
-    width: 100%;
+    width: 930px;
     height: 520px;
     position: absolute;
     top: 600px;
     left: 0;
     bottom: 0;
-    /*border-radius: none;*/
   }
 
   h2 {
@@ -1135,7 +1133,7 @@ footer {
 
   #graph i {
     position: relative;
-    left: 60px;
+    left: 595px;
     bottom: 15px;
     font-size: 28px;
   }
@@ -1143,7 +1141,7 @@ footer {
   #fig7 img,
   #fig8 img,
   #fig9 img {
-    width: 500px;
+    width: 700px;
     height: 120px;
   }
 
@@ -1155,43 +1153,51 @@ footer {
   }
   /************************activites*******************/
 
-  #activities {
-    width: 100%;
+  #activites
+  {
+    width: 80%;
+    display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
     position: relative;
-    top: 0px;
-    margin: 0px;
+    top: 1000px;
+  }
+
+  #bloc1
+  {
+    flex-direction: column;
+    margin-bottom: 160px;
+  }
+  #bloc2
+  {
+  /*margin-bottom: 10px;*/
+  margin-left: 40px;
+  }
+
+  #bloc3{
+    flex-direction: column;
+    margin-bottom: 160px;
+    position: relative;
+    bottom: 170px;
+  }
+
+  #bloc4
+  {
+    position: relative;
+   bottom: 340px;
+   margin-left: 30px;
+    
   }
 
   #activitesmarseille {
     position: relative;
-    top: 895px;
+    top: 2px;
     font-size: 25px;
   }
 
-  #bloc1,
-  #bloc2,
-  #bloc3,
-  #bloc4 {
-    width: 324px;
-    height: 204px;
-    position: relative;
-    top: 900px;
-  }
-
-  #bloc2 {
-    margin-left: 40px;
-  }
-
-  #bloc4 {
-    margin-left: 30px;
-  }
-
+/*
   #activitesmarseille {
     margin-left: 25px;
-  }
+  }*/
 
   #vieux_port,
   #parc_national_des_calanques,
@@ -1200,7 +1206,7 @@ footer {
   #notre_dame_de_la_garde,
   #parc_longchamp {
     height: 160px;
-    width: 670px;
+    width: 890px;
   }
 
   #leg1,
@@ -1209,7 +1215,7 @@ footer {
   #leg4,
   #leg5,
   #leg6 {
-    width: 665px;
+    width: 884px;
     padding-left: 5px;
   }
 
@@ -1219,7 +1225,7 @@ footer {
   #chem4,
   #chem5,
   #chem6 {
-    width: 665px;
+    width: 890px;
     height: 201px;
     border-radius: 13px 13px 13px 13px;
   }
@@ -1229,9 +1235,9 @@ footer {
   footer {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 930px;
     position: relative;
-    top: 510px;
+    top: 800px;
   }
 
   #apropos,
