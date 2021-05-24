@@ -1220,7 +1220,7 @@ footer {
     flex-wrap: nowrap;
     width: 930px;
     position: relative;
-    top: 700px;
+    top: 750px;
   }
 
   #apropos,
@@ -1238,5 +1238,6 @@ footer {
     flex-wrap: nowrap;
     align-items: center;
     padding-left: 80px;
+    padding-right: 20px;
   }
 }
