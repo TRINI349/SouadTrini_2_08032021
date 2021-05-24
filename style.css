@@ -312,6 +312,7 @@ h2 {
   position: relative;
   bottom: 15px;
   left: 15px;
+  font-size: 13px ;
 }
 
 /****************************** aside************************/
@@ -731,7 +732,7 @@ footer {
     background-color: #fff;
     border: none;
     position: relative;
-    top: 440px;
+    top: 490px;
   }
 
   #hebergements_a_marseille {
@@ -756,14 +757,7 @@ footer {
   #bloc456 {
     display: block;
     flex-direction: column;
-    justify-content: space-between;
     margin-left: 0px;
-  }
-
-  #legend4,
-  #legend5,
-  #legend6 {
-    height: 75px;
   }
 
   #fig1,
@@ -783,7 +777,7 @@ footer {
   }
 
   .plus {
-    top: 5px;
+    top: 10px;
   }
 
   /*******************aside******************/
@@ -1157,7 +1151,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 1000px;
+    top: 950px;
   }
 
   #bloc1 {
@@ -1165,7 +1159,6 @@ footer {
     margin-bottom: 160px;
   }
   #bloc2 {
-    /*margin-bottom: 10px;*/
     margin-left: 40px;
   }
 
@@ -1187,11 +1180,6 @@ footer {
     top: 2px;
     font-size: 25px;
   }
-
-  /*
-  #activitesmarseille {
-    margin-left: 25px;
-  }*/
 
   #vieux_port,
   #parc_national_des_calanques,
@@ -1231,7 +1219,7 @@ footer {
     flex-wrap: nowrap;
     width: 930px;
     position: relative;
-    top: 800px;
+    top: 720px;
   }
 
   #apropos,
