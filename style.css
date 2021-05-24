@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2? family = Raleway: ital,wght @ 1100 & display = swap");
 
 body {
-  width: 1150px;
+  /* width: 1150px;*/
+  width: fit-content;
+  max-width: 1440px;
+  margin: auto;
   height: 1300px;
   font-family: "Raleway", sans-serif;
 }
@@ -15,13 +18,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 20px 20px 20px 20px;
+  margin: 10px 20px 10px 20px;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
-  /*padding-left: 20px;*/
   padding-right: 120px;
   padding-top: 10px;
 }
@@ -38,7 +40,7 @@ nav a {
 nav ul a:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
-  padding: 27px;
+  padding-top: 27px;
 }
 #inscription {
   display: inline;
@@ -46,6 +48,7 @@ nav ul a:hover {
   left: 70%;
   bottom: 35px;
   color: #0065fc;
+  font-weight: bold;
 }
 
 .logo-reservia {
@@ -135,6 +138,7 @@ button {
   width: 32px;
   height: 32px;
   margin-right: 10px;
+  padding-top: 5px;
 }
 
 #trie a {
@@ -258,12 +262,11 @@ h2 {
 }
 
 #bloc123,
-#bloc456
-{
+#bloc456 {
   margin-left: 15px;
   display: flex;
   position: relative;
-  bottom: 5px; 
+  bottom: 5px;
 }
 
 #etoile-bleu1,
@@ -278,12 +281,12 @@ h2 {
   color: #0065fc;
 }
 
-#etoile_grise1 i,
-#etoile_grise3 i,
-#etoile_grise4 i,
-#etoile_grise5 i,
-#etoile_grise8 i,
-#etoile_grise9 i {
+#etoile_grise1,
+#etoile_grise3,
+#etoile_grise4,
+#etoile_grise5,
+#etoile_grise8,
+#etoile_grise9{
   color: grey;
 }
 
@@ -293,7 +296,6 @@ h2 {
 #legend4,
 #legend5,
 #legend6 {
-  
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 7px;
@@ -349,8 +351,7 @@ h2 {
 
 #card1,
 #card2,
-#card3
-{
+#card3 {
   margin: 1px;
   display: flex;
   position: relative;
@@ -358,7 +359,7 @@ h2 {
   margin-bottom: 15px;
 }
 
-#fig7 img, 
+#fig7 img,
 #fig8 img,
 #fig9 img {
   width: 101px;
@@ -757,13 +758,12 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 0px;
-
   }
 
   #legend4,
   #legend5,
   #legend6 {
-  height: 75px;
+    height: 75px;
   }
 
   #fig1,
@@ -782,7 +782,7 @@ footer {
     width: 318px;
   }
 
-  .plus{
+  .plus {
     top: 5px;
   }
 
@@ -861,8 +861,7 @@ footer {
     margin-left: 30px;
   }
 
-  #bloc3
-  {
+  #bloc3 {
     margin-top: 260px;
   }
 
@@ -1089,7 +1088,6 @@ footer {
     margin-left: 0px;
     bottom: 0px;
     margin-bottom: 0px;
-
   }
 
   #fig1,
@@ -1154,8 +1152,7 @@ footer {
   }
   /************************activites*******************/
 
-  #activites
-  {
+  #activites {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -1163,30 +1160,26 @@ footer {
     top: 1000px;
   }
 
-  #bloc1
-  {
+  #bloc1 {
     flex-direction: column;
     margin-bottom: 160px;
   }
-  #bloc2
-  {
-  /*margin-bottom: 10px;*/
-  margin-left: 40px;
+  #bloc2 {
+    /*margin-bottom: 10px;*/
+    margin-left: 40px;
   }
 
-  #bloc3{
+  #bloc3 {
     flex-direction: column;
     margin-bottom: 160px;
     position: relative;
     bottom: 170px;
   }
 
-  #bloc4
-  {
+  #bloc4 {
     position: relative;
-   bottom: 340px;
-   margin-left: 30px;
-    
+    bottom: 340px;
+    margin-left: 30px;
   }
 
   #activitesmarseille {
@@ -1195,7 +1188,7 @@ footer {
     font-size: 25px;
   }
 
-/*
+  /*
   #activitesmarseille {
     margin-left: 25px;
   }*/
