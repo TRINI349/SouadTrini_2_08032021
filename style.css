@@ -197,8 +197,7 @@ h2 {
 }
 /***************************hebergements*****************/
 #hebergements {
-  width: 680px;
-  height: 500px;
+  width: 720px;
   margin-top: 50px;
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
@@ -218,9 +217,9 @@ h2 {
 }
 
 #encarts {
-  position: relative;
+ /* position: relative;
   right: 20px;
-  bottom: 10px;
+  bottom: 10px;*/
 }
 
 #hebergements img {
