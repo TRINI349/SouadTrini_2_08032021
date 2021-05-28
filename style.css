@@ -324,14 +324,14 @@ h2 {
 }
 
 #titre {
-  margin-top: 4.6rem;
+  margin-top: 1.5rem;
   padding-left: 1.1rem;
   margin-left: 0.3rem;
 
 }
 
 #graph {
- padding-top: 4.8rem;
+ padding-top: 2rem;
  padding-right: 2rem;
 }
 
@@ -341,7 +341,7 @@ h2 {
   display: flex;
   margin-bottom: 1rem;
   padding-left: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 #fig7 img,
