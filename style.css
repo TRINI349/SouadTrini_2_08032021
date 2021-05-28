@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family = Raleway: ital,wght @ 1100 & display = swap");
 
 body {
-  /* width: 1150px;*/
   width: fit-content;
   max-width: 1440px;
   margin: auto;
@@ -43,12 +42,14 @@ nav ul a:hover {
   padding-top: 27px;
 }
 #inscription {
-  display: inline;
-  position: relative;
+  display: flex;
+  /*position: relative;
   left: 70%;
-  bottom: 35px;
+  bottom: 35px;*/
   color: #0065fc;
   font-weight: bold;
+  padding-top: none;
+  border-top: none;
 }
 
 .logo-reservia {
@@ -599,6 +600,8 @@ footer {
   header {
     flex-direction: column;
     width: 100%;
+    padding-right: 5px;
+    margin-left: auto;
   }
 
   #bloc_page {
@@ -612,19 +615,13 @@ footer {
 
   .logo-reservia img {
     width: 150%;
+    padding-left: 5px;
   }
 
   .ancres {
     flex-direction: column-reverse;
     flex-wrap: wrap;
     width: 100%;
-  }
-
-  #inscription {
-    display: block;
-    margin-right: 10px;
-    position: static;
-    color: #0065fc;
   }
 
   nav {
@@ -641,13 +638,14 @@ footer {
     width: 50%;
     border-bottom: 3px solid #f2f2f2;
     padding-bottom: 10px;
+    padding-left: 3rem;
     margin: 0px;
   }
 
   nav span {
     position: absolute;
-    top: 40px;
-    right: 20px;
+    top: 30px;
+    right: 40px;
   }
 
   nav a:hover {
@@ -661,6 +659,10 @@ footer {
   nav li:hover {
     border-color: #0065fc;
     color: #0065fc;
+  }
+
+  #bloc-page{
+    padding-left: 0.5rem;
   }
 
   .champ-de-saisie {
