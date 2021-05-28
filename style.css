@@ -212,9 +212,7 @@ h2 {
 }
 
 #encarts {
- /* position: relative;
-  right: 20px;
-  bottom: 10px;*/
+ 
 }
 
 #hebergements img {
@@ -318,7 +316,6 @@ h2 {
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 13px;
-  /*padding-top: ;*/
 }
 
 .main{
@@ -328,21 +325,20 @@ h2 {
 }
 
 #entete {
+  display: flex;
+  justify-content: space-between;
   
-  padding-bottom: 1rem;
 }
 
 #titre {
-  margin-top: 5rem;
+  margin-top: 4.6rem;
   padding-left: 1.1rem;
-/*padding-top: rem;*/
+
 }
 
 #graph {
- padding-left: 16rem;
- padding-bottom: 1rem;
- /*padding-top: 0rem;
- margin-top: 0rem; */
+ padding-top: 4.8rem;
+ padding-right: 2rem;
 }
 
 #card1,
