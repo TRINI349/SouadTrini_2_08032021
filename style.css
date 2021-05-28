@@ -42,18 +42,13 @@ nav ul a:hover {
   padding-top: 27px;
 }
 #inscription {
-  display: flex;
-  /*position: relative;
-  left: 70%;
-  bottom: 35px;*/
   color: #0065fc;
   font-weight: bold;
-  padding-top: none;
   border-top: none;
 }
 
 .logo-reservia {
-  width: 60px;
+  width: 70px;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -394,17 +389,12 @@ h2 {
 
 /****************************activites**************************/
 
-#activites {
+#activites 
+{
   display: block;
-  /*position: relative;
-  bottom: 400px;
-  right: 22px;*/
 }
 
 #activitesmarseille {
- /*position: relative;
-  left: 40px;
-  top: 10px;*/
   font-weight: bold;
   font-size: 16px;
 }
@@ -506,9 +496,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 30px;
-  /*position: relative;
-  bottom: 520px;*/
+  padding-bottom: 30px; 
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
 }
