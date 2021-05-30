@@ -380,10 +380,14 @@ h2 {
 
 #activites 
 {
-  display: block;
+  margin-left: 0px;
+  margin-right: 5px;
 }
 
 #activitesmarseille {
+  padding-left: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
   font-weight: bold;
   font-size: 16px;
 }
@@ -391,6 +395,7 @@ h2 {
 #bloc1,
 #bloc3 {
   display: inline-flex;
+  
 }
 
 #bloc2,
@@ -399,14 +404,12 @@ h2 {
   flex-direction: column;
   position: relative;
   bottom: 175px;
-  justify-content: space-between;
 }
 
 #chem1,
 #chem4 {
   width: 220px;
   height: 280px;
-  margin-right: 40px;
   box-shadow: 1px 1px 10px #f2f2f2;
 }
 
@@ -414,8 +417,6 @@ h2 {
 #chem3 {
   width: 220px;
   height: 127px;
-  margin-right: 0px;
-  margin-left: 0px;
   position: relative;
   top: 11px;
   box-shadow: 1px 1px 10px #f2f2f2;
@@ -425,7 +426,6 @@ h2 {
 #chem6 {
   width: 224px;
   height: 127px;
-  margin-left: 10px;
   position: relative;
   top: 12px;
   box-shadow: 1px 1px 10px #f2f2f2;
@@ -678,9 +678,6 @@ footer {
   /*****************Filtres******************/
   #bloc-filtres {
     flex-wrap: wrap;
-    height: 160px;
-    position: relative;
-    bottom: 30px;
   }
 
   #trie ul {
@@ -706,22 +703,22 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
-    height: 1250px;
+    /*height: 1250px;*/
     background-color: #fff;
     border: none;
-    position: relative;
-    top: 490px;
+    /*position: relative;
+    top: 490px;*/
   }
 
   #hebergements_a_marseille {
-    position: relative;
-    top: 45px;
+   /* position: relative;
+    top: 45px;*/
     line-height: 25px;
   }
 
   #encarts {
-    position: relative;
-    top: 35px;
+    /*position: relative;
+    top: 35px;*/
   }
 
   #bloc123 {
@@ -761,11 +758,9 @@ footer {
   /*******************aside******************/
   #populaires {
     width: 390px;
-    height: 520px;
     position: absolute;
-    top: 800px;
-    left: 0;
-    bottom: 0;
+    top: 0px;
+    margin-top: 40rem;
     border-radius: 0px 0px;
   }
 
@@ -778,9 +773,6 @@ footer {
   }
 
   #graph i {
-    position: relative;
-    left: 60px;
-    bottom: 15px;
     font-size: 28px;
   }
 
