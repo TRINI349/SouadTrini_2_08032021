@@ -205,14 +205,6 @@ h2 {
   margin-left: 20px;
 }
 
-.carte {
- 
-}
-
-#encarts {
- 
-}
-
 #hebergements img {
   width: 180px;
   height: 80px;
@@ -378,15 +370,9 @@ h2 {
 
 /****************************activites**************************/
 
-#activites 
-{
-  margin-left: 0px;
-  margin-right: 5px;
-}
-
 #activitesmarseille {
   padding-left: 2rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   font-weight: bold;
   font-size: 16px;
@@ -395,7 +381,6 @@ h2 {
 #bloc1,
 #bloc3 {
   display: inline-flex;
-  
 }
 
 #bloc2,
@@ -411,6 +396,8 @@ h2 {
   width: 220px;
   height: 280px;
   box-shadow: 1px 1px 10px #f2f2f2;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #chem2,
@@ -420,6 +407,8 @@ h2 {
   position: relative;
   top: 11px;
   box-shadow: 1px 1px 10px #f2f2f2;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #chem5,
@@ -429,9 +418,8 @@ h2 {
   position: relative;
   top: 12px;
   box-shadow: 1px 1px 10px #f2f2f2;
+  margin-left: 25px;
 }
-
-/*************taille photos****************/
 
 #fort_de_pomegues,
 #ile_de_frioul,
@@ -454,8 +442,6 @@ h2 {
   border-top-right-radius: 13px;
   border: 1px solid #f2f2f2;
 }
-
-/************** Figcaption*******************/
 
 #leg1,
 #leg2,
@@ -696,43 +682,34 @@ footer {
 
   #information {
     margin-right: 2px;
+    margin-bottom: 3rem;
   }
 
   /****************************hebergements********************/
   #hebergements {
     flex-direction: column;
     justify-content: space-between;
-    width: 90%;
-    /*height: 1250px;*/
+    width: 100%;
     background-color: #fff;
     border: none;
-    /*position: relative;
-    top: 490px;*/
+    margin-top: 33rem;
+    margin-left: 0.1rem;
   }
 
   #hebergements_a_marseille {
-   /* position: relative;
-    top: 45px;*/
-    line-height: 25px;
-  }
-
-  #encarts {
-    /*position: relative;
-    top: 35px;*/
+   padding-bottom: 2rem;
   }
 
   #bloc123 {
     display: block;
     flex-direction: column;
-    margin-bottom: 0px;
-    bottom: 0px;
-    margin-left: 0px;
+    margin-left: 0rem;
   }
 
   #bloc456 {
     display: block;
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: 0rem;
   }
 
   #fig1,
@@ -751,25 +728,21 @@ footer {
     width: 318px;
   }
 
-  .plus {
-    top: 10px;
-  }
-
   /*******************aside******************/
+  .main{
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
   #populaires {
     width: 390px;
     position: absolute;
     top: 0px;
-    margin-top: 40rem;
+    margin-top: 38rem;
     border-radius: 0px 0px;
   }
 
   h2 {
     font-size: 22px;
-  }
-
-  #entete {
-    width: 100%;
   }
 
   #graph i {
@@ -792,45 +765,34 @@ footer {
   /************************activites*******************/
 
   #activities {
-    width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    position: relative;
-    top: 0px;
-    margin: 0px;
   }
 
   #activitesmarseille {
-    position: relative;
-    top: 830px;
     font-size: 25px;
+    padding-top: 0rem;
+    margin-top: 0rem;
   }
 
-  #bloc1,
-  #bloc2,
-  #bloc3,
-  #bloc4 {
-    width: 324px;
-    height: 204px;
-    position: relative;
-    top: 800px;
+  #bloc1{
+    margin-bottom: 0rem;
   }
-
-  #bloc2 {
-    margin-left: 40px;
+ 
+  #bloc2{
+    margin-bottom: 0rem;
+    top: 0px;
+    bottom: 0px;
   }
 
   #bloc4 {
-    margin-left: 30px;
-  }
-
-  #bloc3 {
-    margin-top: 260px;
+  top: 0px;
+  bottom: 0px;
   }
 
   #activitesmarseille {
-    margin-left: 25px;
+  margin-left: 25px;
   }
 
   #vieux_port,
@@ -869,8 +831,7 @@ footer {
     display: grid;
     flex-direction: column;
     width: 390px;
-    position: relative;
-    top: 750px;
+    margin-top: 5rem;
   }
 
   #apropos {
@@ -988,9 +949,9 @@ footer {
   button {
     width: 15%;
     flex-wrap: nowrap;
-    position: relative;
+    /*position: relative;
     bottom: 5px;
-    right: 20px;
+    right: 20px;*/
   }
 
   h1 {
@@ -1024,18 +985,18 @@ footer {
     height: 1170px;
     background-color: #fff;
     border: none;
-    position: relative;
-    top: 500px;
+   /* position: relative;
+    top: 500px;*/
   }
 
   #hebergements_a_marseille {
-    position: relative;
-    top: 30px;
+   /* position: relative;
+    top: 30px;*/
   }
 
   #encarts {
-    position: relative;
-    top: 35px;
+   /* position: relative;
+    top: 35px;*/
   }
 
   #bloc123 {
@@ -1066,23 +1027,23 @@ footer {
 
   #hebergements img {
     width: 698px;
-    height: 150px;
+   /* height: 150px;*/
   }
 
   .plus {
-    position: relative;
-    top: 15px;
+   /* position: relative;
+    top: 15px;*/
     font-size: 17px;
   }
 
   /*******************aside******************/
   #populaires {
     width: 100%;
-    height: 520px;
+   /* height: 520px;*/
     position: absolute;
-    top: 600px;
-    left: 0;
-    bottom: 0;
+    top: 0px;
+    /*left: 0;
+    bottom: 0;*/
     border-radius: 0;
   }
 
@@ -1095,9 +1056,9 @@ footer {
   }
 
   #graph i {
-    position: relative;
+   /* position: relative;
     left: 450px;
-    bottom: 15px;
+    bottom: 15px;*/
     font-size: 28px;
   }
 
@@ -1120,8 +1081,8 @@ footer {
     width: 80%;
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 950px;
+   /* position: relative;
+    top: 950px;*/
   }
 
   #bloc1 {
@@ -1135,19 +1096,19 @@ footer {
   #bloc3 {
     flex-direction: column;
     margin-bottom: 160px;
-    position: relative;
-    bottom: 170px;
+    /*position: relative;
+    bottom: 170px;*/
   }
 
   #bloc4 {
-    position: relative;
-    bottom: 340px;
+    /*position: relative;
+    bottom: 340px;*/
     margin-left: 30px;
   }
 
   #activitesmarseille {
-    position: relative;
-    top: 2px;
+   /* position: relative;
+    top: 2px;*/
     font-size: 25px;
   }
 
@@ -1188,8 +1149,8 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     width: 930px;
-    position: relative;
-    top: 750px;
+   /* position: relative;
+    top: 750px;*/
   }
 
   #apropos,
