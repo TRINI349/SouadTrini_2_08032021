@@ -4,7 +4,7 @@ body {
   width: fit-content;
   max-width: 1440px;
   margin: auto;
-  height: 1300px;
+ /* height: 1300px;*/
   font-family: "Raleway", sans-serif;
 }
 
@@ -24,7 +24,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   padding-right: 120px;
-  padding-top: 10px;
+  padding-top: 3px;
 }
 
 nav li {
@@ -52,8 +52,7 @@ nav ul a:hover {
   height: 40px;
   display: flex;
   flex-direction: row;
-  position: relative;
-  top: 5px;
+  padding-bottom: 15px;
 }
 
 a {
@@ -131,10 +130,10 @@ button {
   border: 1px solid #deebff;
   border-radius: 30px;
   background-color: #deebff;
-  width: 32px;
+  width: 35px;
   height: 32px;
   margin-right: 10px;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 
 #trie a {
@@ -154,6 +153,7 @@ button {
   border-radius: 30px;
   height: 35px;
   margin-right: 20px;
+  padding-bottom: 4px;
 }
 
 #argent,
@@ -162,6 +162,7 @@ button {
 #animaux {
   text-align: center;
   padding-top: 2px;
+  margin-right: 3px;
 }
 
 #information {
@@ -171,16 +172,15 @@ button {
 }
 
 #icone-info {
-  width: 13px;
-  height: 10px;
+  width: 17px;
+  height: 15px;
   margin-right: 10px;
   border: 1px solid #deebff;
   color: #0065fc;
   border-radius: 50%;
   padding: 2px 2px;
-  font-size: 10px;
-  position: relative;
-  top: 15px;
+  font-size: 15px;
+  margin-top: 11px;
   text-align: center;
 }
 
@@ -243,8 +243,6 @@ h2 {
 #bloc456 {
   margin-left: 15px;
   display: flex;
-  position: relative;
-  bottom: 5px;
 }
 
 #etoile-bleu1,
@@ -859,8 +857,9 @@ footer {
 
 @media all and (min-width: 700px) and (max-width: 1024px) {
   body {
-    width: auto;
+    width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   header {
@@ -869,8 +868,20 @@ footer {
   }
 
   #bloc_page {
-    margin: 0px;
-    padding: 0px;
+    /*margin: 0px;
+    padding: 0px;*/
+    /*padding-right: 5px;
+    padding-left: 5px;*/
+    margin-right: 5px;
+    margin-left: 5px;
+    
+  }
+
+  .main{
+    /*padding-left: 5px;
+    padding-right: 5px;*/
+    /*margin-left: 5px;
+    margin-right: 5px;*/
   }
 
   .logo-reservia {
@@ -898,7 +909,7 @@ footer {
 
   nav li {
     text-align: center;
-    width: 50%;
+    width: 100%;
     border-bottom: 3px solid #f2f2f2;
     padding-bottom: 10px;
     margin: 0px;
@@ -928,7 +939,7 @@ footer {
   }
 
   input {
-    width: 40%;
+   width: 40%;
   }
 
   button {
@@ -937,7 +948,7 @@ footer {
   }
 
   h1 {
-    width: 500px;
+    width: 100%;
     line-height: 20px;
   }
 
@@ -949,6 +960,7 @@ footer {
 
   #trie ul {
     flex-wrap: wrap;
+    padding-left: 5px;
   }
 
   #trie li {
@@ -960,6 +972,10 @@ footer {
   }
 
   /****************************hebergements********************/
+
+  #main{
+
+  }
   #hebergements {
     flex-direction: column;
     justify-content: space-between;
@@ -994,12 +1010,12 @@ footer {
   #fig4,
   #fig5,
   #fig6 {
-    width: 700px;
+    width: 153%;
     box-shadow: 0px 0px 4px 5px #f2f2f2;
   }
 
   #hebergements img {
-    width: 698px;
+    width: 100%;
   }
 
   .plus {
@@ -1012,7 +1028,7 @@ footer {
     position: absolute;
     top: 0px;
     border-radius: 0;
-    margin-top: 33rem;
+    margin-top: 35rem;
     margin-bottom: 0rem;
   }
 
@@ -1026,21 +1042,22 @@ footer {
 
   #graph i {
     font-size: 28px;
-    margin-left: 5rem;
+    margin-right: 1.5rem;
   }
 
   #fig7 img,
   #fig8 img,
   #fig9 img {
-    width: 550px;
-    height: 120px;
+    width: 100%;
   }
 
   #legend7,
   #legend8,
   #legend9 {
-    width: 160px;
-    height: 115px;
+    width: 26%;
+    margin-right: 50px;
+    padding-left: 10px;
+    left: 0px;
   }
   /************************activites*******************/
 
@@ -1117,7 +1134,7 @@ footer {
   footer {
     display: flex;
     flex-wrap: nowrap;
-    width: 930px;
+   /* width: 930px;*/
     margin-top: 5rem;
   }
 
