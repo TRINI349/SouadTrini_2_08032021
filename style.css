@@ -8,6 +8,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+#contener{
+  width: 100%;
+}
+
 #bloc-page {
   padding-left: 20px;
   padding-right: 20px;
@@ -48,8 +52,7 @@ nav ul a:hover {
 }
 
 .logo-reservia {
-  width: 70px;
-  height: 40px;
+  height: 45px;
   display: flex;
   flex-direction: row;
   padding-bottom: 15px;
@@ -573,7 +576,7 @@ footer {
   }
 
   .logo-reservia img {
-    width: 150%;
+   width: 18%;
     padding-left: 5px;
   }
 
@@ -690,12 +693,12 @@ footer {
     width: 100%;
     background-color: #fff;
     border: none;
-    margin-top: 33rem;
+    margin-top: 35rem;
     margin-left: 0.1rem;
   }
 
   #hebergements_a_marseille {
-   padding-bottom: 2rem;
+   padding-bottom: 1rem;
   }
 
   #bloc123 {
@@ -745,6 +748,7 @@ footer {
 
   #graph i {
     font-size: 28px;
+    margin-right: 5px;
   }
 
   #fig7 img,
@@ -766,12 +770,14 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+
   }
 
   #activitesmarseille {
     font-size: 25px;
     padding-top: 0rem;
     margin-top: 0rem;
+    margin-bottom: 1rem;
   }
 
   #bloc1{
