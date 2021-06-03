@@ -303,7 +303,7 @@ h2 {
 .main{
   display: flex;
   justify-content: space-between;
-  margin-right: 11rem;
+  margin-right: 9rem;
 }
 
 #entete {
@@ -389,7 +389,7 @@ h2 {
 
 /*#chem1,
 #chem4 {
-  width: /*220px; 16rem;
+ /* width: 220px; /*16rem;
   height: 280px;
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 20px;
@@ -398,7 +398,7 @@ h2 {
 
 #chem2,
 #chem3 {
-  width: 220px;
+  /*width: 220px;
   height: 127px;
   position: relative;
   top: 11px;
@@ -409,7 +409,7 @@ h2 {
 
 #chem5,
 #chem6 {
-  width: 224px;
+ /* width: 224px;
   height: 127px;
   position: relative;
   top: 12px;
@@ -428,6 +428,7 @@ h2 {
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
   box-shadow: 1px 1px 10px #f2f2f2;
+
 }
 
 #vieux_port,
@@ -447,19 +448,18 @@ h2 {
 #leg4,
 #leg5,
 #leg6 {
-  width: /*210px;*/13.2rem;
-  height: 30px;
+  display: flex;
+  width: 13.1rem;
+  height: 34px;
   border: 1px solid #f2f2f2;
- /* position: relative;
-  bottom: 4.5px;*/
-  margin-top: px;
+  position: relative;
+  bottom: 6px;
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
   background-color: #fff;
   font-size: 12px;
   text-indent: 0px;
   padding-left: 10px;
-  padding-top: 7px;
   color: black;
   box-shadow: 1px 1px 15px #f2f2f2;
 }
@@ -467,32 +467,29 @@ h2 {
 /*footer*/
 
 footer {
-  width: 1250px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 30px; 
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
+  padding-top: 20px;
+  margin-top: 50px;
 }
 
 #apropos {
-  margin-right: 0px;
-  margin-left: 5px;
   line-height: 20px;
 }
 
 #apropos h4 {
   color: black;
   font-size: 13px;
-  position: relative;
-  left: 20px;
+  margin-left: 40px;
 }
 
 #apropos ul {
   list-style-type: none;
-  position: relative;
-  right: 20px;
 }
 #apropos li,
 #heb li,
@@ -522,12 +519,11 @@ footer {
 #heb h4 {
   color: black;
   font-size: 13px;
+  margin-left: 40px;
 }
 
 #heb ul {
   list-style-type: none;
-  position: relative;
-  right: 40px;
 }
 
 #assistance {
@@ -538,14 +534,11 @@ footer {
 #assistance h4 {
   color: black;
   font-size: 13px;
-  position: relative;
-  right: 40px;
+  margin-left: 40px;
 }
 
 #assistance ul {
   list-style-type: none;
-  position: relative;
-  right: 80px;
 }
 
 /*------------------------------------------------ partie mobile----------------------------------------------- */
