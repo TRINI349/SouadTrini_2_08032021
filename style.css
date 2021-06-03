@@ -660,6 +660,7 @@ footer {
   #trie ul {
     flex-wrap: wrap;
     padding-left: 0px;
+    margin-bottom: 0px;
   }
 
   #trie li {
@@ -671,9 +672,14 @@ footer {
     margin-bottom: 0px;
   }
 
-  #information {
+  #icone-info{
+    padding: 5px 8px 5px 8px;
+  }
+
+  #information{
     margin-right: 2px;
-    padding-top: 0px;
+    margin-bottom: 40px;
+    
   }
 
   /****************************hebergements********************/
@@ -683,7 +689,7 @@ footer {
     width: 100%;
     background-color: #fff;
     border: none;
-    margin-top: 35rem;
+    margin-top: 33rem;
     margin-left: 0.1rem;
   }
 
@@ -760,6 +766,7 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    margin-right: 10px;
 
   }
 
@@ -817,6 +824,7 @@ footer {
     width: 320px;
     height: 201px;
     border-radius: 13px 13px 13px 13px;
+    margin-left: 25px;
   }
 
   /***********************Footer**************************/
@@ -834,6 +842,14 @@ footer {
     justify-content: flex-start;
   }
 
+  #apropos h4{
+    margin-left: 40px;
+  }
+
+  #apropos ul{
+    padding-left: 40px;
+  }
+
   #heb {
     display: grid;
     flex-direction: column;
@@ -841,11 +857,28 @@ footer {
     margin-left: 25px;
   }
 
+  #heb ul{
+   padding-left: 20px;
+  }
+
+  #heb h4{
+    margin-left: 20px;
+  }
+
   #assistance {
     display: grid;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 65px;
+    margin-left: 25px;
+  }
+
+  #assistance h4
+  {
+    margin-left: 20px;
+  }
+
+  #assistance ul{
+    padding-left: 20px;
   }
 }
 
@@ -1021,7 +1054,7 @@ footer {
   #fig4,
   #fig5,
   #fig6 {
-    width: 153%;
+    width: 140%;
     box-shadow: 0px 0px 4px 5px #f2f2f2;
   }
 
@@ -1121,7 +1154,7 @@ footer {
   #notre_dame_de_la_garde,
   #parc_longchamp {
     height: 160px;
-    width: 100%;
+    width: 95%;
   }
 
   #leg1,
@@ -1130,7 +1163,7 @@ footer {
   #leg4,
   #leg5,
   #leg6 {
-    width: 99%;
+    width: 94.2%;
     padding-left: 5px;
     font-size: 14px;
   }
@@ -1151,7 +1184,7 @@ footer {
   footer {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 110%;
     margin-top: 5rem;
   }
 
@@ -1171,6 +1204,6 @@ footer {
     align-items: center;
 
     padding-top: 15px;
-    margin-right: 0px;
+    margin-right: 110px;
   }
 }
