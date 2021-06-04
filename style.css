@@ -5,6 +5,7 @@ body {
   max-width: 1440px;
   font-family: "Raleway", sans-serif;
   margin: auto;
+  overflow-x: hidden;
 }
 
 #contener{
