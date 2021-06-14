@@ -4,12 +4,1070 @@ body {
   width: fit-content;
   max-width: 1440px;
   font-family: "Raleway", sans-serif;
+  /*margin: auto;*/
+  overflow-x: hidden;
+}
+
+/*#contener{
+ /*width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}*/
+
+#bloc-page {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 20px 10px 20px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding-right: 120px;
+  padding-top: 3px;
+}
+nav li {
+  margin-right: 40px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav ul a:hover {
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+  padding-top: 27px;
+}
+#inscription {
+  color: #0065fc;
+  font-weight: bold;
+  border-top: none;
+}
+.logo-reservia {
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+a {
+  text-decoration: none;
+}
+#lieux {
+  display: inline-flex;
+  background-color: #f2f2f2;
+  padding-left: 9px;
+  padding-right: 7px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+input {
+  width: 13%;
+  height: 29px;
+  border: 1px solid #f2f2f2;
+  margin-right: 0px;
+  
+}
+button {
+  width: 8%;
+  height: 1.9rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #f2f2f2;
+  background: #0065fc;
+  cursor: pointer;
+  color: #fff;
+  align-items: center;
+  font-size: 13px;
+}
+#text_rechercher{
+  display: initial;
+}
+#search {
+  display: none;
+}
+/**********************************filtres*********************/
+#bloc-filtres {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#filtres-titres {
+  padding-top: 10px;
+  margin-right: 1px;
+}
+#trie ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 10px;
+}
+#trie li {
+  padding-right: 10px;
+}
+#trie i {
+  color: #0065fc;
+  border: 1px solid #deebff;
+  border-radius: 30px;
+  background-color: #deebff;
+  width: 2.3rem;
+  height: 32px;
+  margin-right: 5px;
+  padding-top: 7px;
+}
+#trie a {
+  color: black;
+  text-decoration: none;
+}
+#trie a:hover {
+  color: #0065fc;
+}
+#eco,
+#famille,
+#romantique,
+#animaux-autorises {
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  height: 35px;
+  margin-right: 20px;
+  padding-bottom: 4px;
+}
+#argent,
+#enfant,
+#coeur,
+#animaux {
+  text-align: center;
+  padding-top: 2px;
+  margin-right: 3px;
+}
+#information {
+  display: flex;
+  font-size: 15px;
+  padding-top: 20px;
+}
+#icone-info {
+  width: 1.5%;
+  height: 15px;
+  margin-right: 10px;
+  border: 1px solid #deebff;
+  color: #0065fc;
+  border-radius: 50%;
+  padding: 2px 2px;
+  font-size: 15px;
+  margin-top: 11px;
+  text-align: center;
+}
+h1,
+h2 {
+  font-weight: bold;
+  line-height: 5px;
+  font-size: 16px;
+}
+/***************************hebergements*****************/
+#hebergements {
+  width: /*765px;*/ 43rem;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 13px;
+  margin-left: 20px;
+}
+#hebergements h2 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+#hebergements img {
+  width: 11rem;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+#fig1,
+#fig2,
+#fig3 {
+  margin-left: 25px;
+  margin-right: 5px;
+  border: 1px solid #f2f2f2;
+  padding: 3px 3px 3px 3px;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+#fig4,
+#fig5,
+#fig6 {
+  margin-left: 25px;
+  margin-right: 5px;
+  border: 1px solid #f2f2f2;
+  padding: 3px 3px 3px 3px;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-top: 3rem;
+}
+#bloc123,
+#bloc456 {
+  margin-left: 15px;
+  display: flex;
+}
+#etoile-bleu1,
+#etoile-bleu2,
+#etoile-bleu3,
+#etoile-bleu4,
+#etoile-bleu5,
+#etoile-bleu6,
+#etoile-bleu7,
+#etoile-bleu8,
+#etoile-bleu9 {
+  color: #0065fc;
+}
+#etoile_grise1,
+#etoile_grise3,
+#etoile_grise4,
+#etoile_gris4,
+#etoile_grise5,
+#etoile_grise8,
+#etoile_grise9{
+  color: grey;
+}
+#legend1,
+#legend2,
+#legend3,
+#legend4,
+#legend5,
+#legend6 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  background-color: #fff;
+  text-align: start;
+  font-size: 14px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  color: black;
+  line-height: 5px;
+}
+.plus {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-size: 13px ;
+}
+/****************************** aside************************/
+#populaires {
+  width: 20rem;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 13px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 9rem;
+}
+#entete {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  
+}
+#titre {
+  margin-top: 1.5rem;
+  padding-left: 1.1rem;
+  margin-left: 0.3rem;
+}
+#graph {
+ padding-top: 2rem;
+ padding-right: 2rem;
+}
+#card1,
+#card2,
+#card3 {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+#fig7 img,
+#fig8 img,
+#fig9 img {
+  width: 8rem;
+  height: 115px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  padding: 3px 0px 3px 3px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  background-color: #fff;
+}
+#legend7,
+#legend8,
+#legend9 {
+  width: 8.5rem;
+  height: 109px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  padding-left: 8px;
+  padding-top: 8px;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  right: 4px;
+  padding-bottom: 4px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+  line-height: 15px;
+}
+/****************************activites**************************/
+#activitesmarseille {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+#bloc1,
+#bloc3 {
+  display: inline-flex;
+}
+#bloc2,
+#bloc4 {
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+/*#chem1,
+#chem4 {
+ /* width: 220px; /*16rem;
+  height: 280px;
+  box-shadow: 1px 1px 10px #f2f2f2;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#chem2,
+#chem3 {
+  /*width: 220px;
+  height: 127px;
+  position: relative;
+  top: 11px;
+  box-shadow: 1px 1px 10px #f2f2f2;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#chem5,
+#chem6 {
+ /* width: 224px;
+  height: 127px;
+  position: relative;
+  top: 12px;
+  box-shadow: 1px 1px 10px #f2f2f2;
+  margin-left: 25px;
+}*/
+#fort_de_pomegues,
+#ile_de_frioul,
+#notre_dame_de_la_garde,
+#parc_longchamp {
+  width: 220px;
+  width: /*220px;*/12.3rem;
+  height: 90px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  box-shadow: 1px 1px 10px #f2f2f2;
+}
+
+#vieux_port,
+#parc_national_des_calanques {
+  width: 220px;
+  width: /*220px;*/ 12.3rem;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 1px 1px 15px #f2f2f2;
+}
+#leg1,
+#leg2,
+#leg3,
+#leg4,
+#leg5,
+#leg6 {
+  display: flex;
+  width: 13.1rem;
+  width: 11.7rem;
+  height: 34px;
+  border: 1px solid #f2f2f2;
+  position: relative;
+  bottom: 6px;
+  bottom: 5px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  background-color: #fff;
+  font-size: 12px;
+  text-indent: 0px;
+  padding-left: 10px;
+  color: black;
+  box-shadow: 1px 1px 15px #f2f2f2;
+}
+/*footer*/
+footer {
+  width: 80rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+#apropos {
+  line-height: 20px;
+}
+#apropos h4 {
+  color: black;
+  font-size: 13px;
+  margin-left: 40px;
+}
+#apropos ul {
+  list-style-type: none;
+}
+#apropos li,
+#heb li,
+#assistance li {
+  font-size: 14px;
+  color: black;
+}
+#apropos li :hover,
+#heb li :hover,
+#assistance li :hover {
+  color: #0065fc;
+}
+#apropos a,
+#heb a,
+#assistance a {
+  color: black;
+  font-size: 12px;
+}
+#heb {
+  margin-right: 40px;
+  line-height: 20px;
+}
+#heb h4 {
+  color: black;
+  font-size: 13px;
+  margin-left: 40px;
+}
+#heb ul {
+  list-style-type: none;
+}
+#assistance {
+  margin-right: 100px;
+  line-height: 20px;
+}
+#assistance h4 {
+  color: black;
+  font-size: 13px;
+  margin-left: 40px;
+}
+#assistance ul {
+  list-style-type: none;
+}
+/*------------------------------------------------ partie mobile----------------------------------------------- */
+
+@media all and (max-width: 699px) {
+  body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  header {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+
+  #bloc_page {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo-reservia {
+    margin-bottom: 20px;
+    
+  }
+  .logo-reservia img {
+    width: 19%;
+    padding-left: 5px;
+  }
+  .ancres {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav li {
+    text-align: center;
+    width: 60%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+    padding-left: 3rem;
+    margin: 0px;
+  }
+  nav span {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+  }
+  nav a:hover {
+    padding-top: 37px;
+  }
+  nav li a:hover {
+    border-top: none;
+  }
+  nav li:hover {
+    border-color: #0065fc;
+    color: #0065fc;
+  }
+  #bloc-page{
+    padding-left: 0.5rem;
+  }
+  .champ-de-saisie {
+    margin-left: 10px;
+  }
+  .lieux {
+    width: 10%;
+    height: 25px;
+    flex-direction: column;
+  }
+  input {
+    width: 50%;
+  }
+  button {
+    width: 15%;
+    flex-wrap: nowrap;
+  }
+  #text_rechercher{
+    display: none;
+  }
+  #search {
+    display: initial;
+  }
+  h1 {
+    width: 70%;
+    line-height: 20px;
+  }
+  /*****************Filtres******************/
+  #bloc-filtres {
+    flex-wrap: wrap;
+  }
+  #trie ul {
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  #trie li {
+    margin-bottom: 10px;
+  }
+  #filtres-titre {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  #icone-info{
+    padding: 5px 8px 5px 8px;
+  }
+  #information{
+    margin-right: 2px;
+    margin-bottom: 40px;
+    
+  }
+  /****************************hebergements********************/
+  #hebergements {
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  #hebergements_a_marseille {
+   padding-bottom: 1rem;
+  }
+  #bloc123 {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+  #bloc456 {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+  #fig1,
+  #fig2,
+  #fig3,
+  #fig4,
+  #fig5,
+  #fig6 {
+    width: 36%;
+    box-shadow: 0px 0px 4px 5px #f2f2f2;
+    margin-top: 10px;
+    margin-bottom: 17px;
+  }
+  #hebergements img {
+    width: 100%;
+  }
+  /*******************aside******************/
+  .main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #populaires {
+    width: 100%;
+    border-radius: 0px 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  #graph i {
+    font-size: 28px;
+    margin-right: 5px;
+  }
+  #fig7 img,
+  #fig8 img,
+  #fig9 img {
+    width: 160px;
+    height: 120px;
+  }
+
+  #legend7,
+  #legend8,
+  #legend9 {
+    width: 160px;
+    height: 115px;
+  }
+  /************************activites*******************/
+  #activities {
+      width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+  }
+  #activitesmarseille {
+    font-size: 25px;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+  #bloc1{
+    width: 100%;
+    margin-bottom: 0rem;
+    margin: 0px;
+    padding: 0px;
+  }
+ 
+  #bloc2{
+    width: 100%;
+    margin-bottom: 0rem;
+    top: 0px;
+    bottom: 0px;
+  }
+  #bloc4 {
+    width: 100%;
+  top: 0px;
+  bottom: 0px;
+  }
+  
+  #activitesmarseille {
+  margin-left: 25px;
+  }
+
+  #vieux_port,
+  #parc_national_des_calanques,
+  #fort_de_pomegues,
+  #ile_de_frioul,
+  #notre_dame_de_la_garde,
+  #parc_longchamp {
+    height: 160px;
+    width: 320px;
+  }
+
+  #leg1,
+  #leg2,
+  #leg3,
+  #leg4,
+  #leg5,
+  #leg6 {
+    width: 310px;
+  }
+
+  /*#chem1,
+  #chem2,
+  #chem3,
+  #chem4,
+  #chem5,
+  #chem6 {
+    width: 320px;
+    width: /*320px; 24.5rem;
+    height: 201px;
+    border-radius: 13px 13px 13px 13px;
+    margin-left: 25px;
+  }*/
+  /***********************Footer**************************/
+  footer {
+   width:100%;
+    display: grid;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #apropos {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #apropos h4{
+    margin-left: 40px;
+  }
+  #apropos ul{
+    padding-left: 40px;
+  }
+  #heb {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+  }
+  #heb ul{
+   padding-left: 20px;
+  }
+  #heb h4{
+    margin-left: 20px;
+  }
+  #assistance {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+  }
+  #assistance h4
+  {
+    margin-left: 20px;
+  }
+  #assistance ul{
+    padding-left: 20px;
+  }
+}
+/*************************************Tablette*******************************************/
+@media all and (min-width: 700px) and (max-width: 1024px) {
+  body {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+  #bloc_page {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .logo-reservia {
+    margin-bottom: 20px;
+  }
+  .logo-reservia img {
+    width: 18%;
+  }
+  .ancres {
+    width: 100%;
+    margin: 0px;
+  }
+  nav {
+    width: 100%;
+    margin: 0px;
+  }
+  nav ul {
+    width: 100%;
+    padding: 0px;
+  }
+  nav li {
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin: 0px;
+    padding-left: 3rem;
+  }
+  nav a:hover {
+    padding-top: 37px;
+  }
+  nav li a:hover {
+    border-top: none;
+  }
+  nav li:hover {
+    border-color: #0065fc;
+    color: #0065fc;
+  }
+  .champ-de-saisie {
+    margin-left: 10px;
+  }
+  .lieux {
+    width: 2%;
+    height: 25px;
+    flex-direction: column;
+  }
+  input {
+   width: 40%;
+  }
+  button {
+    width: 15%;
+    flex-wrap: nowrap;
+  }
+  h1 {
+    width: 100%;
+    line-height: 20px;
+  }
+  /***********filtres*/
+  #trie
+  {
+    flex-wrap: wrap;
+  }*/
+  #bloc-filtres {
+    flex-wrap: wrap;
+  }
+  #filtres-titres {
+    padding-top: 10px;
+    margin-right: 20px;
+  }
+  
+  #eco,
+  #famille,
+  #romantique,
+  #animaux {
+    border: 2px solid #f2f2f2;
+    border-radius: 30px;
+    height: 35px;
+    width: 30%;
+    margin-right: 20px;
+    padding-bottom: 4px;
+  }
+  
+  #argent,
+  #enfant,
+  #coeur,
+  #animaux {
+    text-align: center;
+    padding-top: 2px;
+    margin-right: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  #trie ul {
+    flex-wrap: wrap;
+    padding-left: 5px;
+  }
+  #trie li {
+   margin-bottom: 10px;
+  }
+  /****************************hebergements*********************/
+  #hebergements {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #fff;
+    border: none;
+    margin-top: 3rem;
+  }
+  #hebergements_a_marseille {
+    font-size: 30px;
+    padding-bottom: 3rem;
+  }
+  #bloc123 {
+    display: block;
+    flex-direction: column;
+  }
+  #bloc456 {
+    display: block;
+    flex-direction: column;
+   
+  }
+  #fig1,
+  #fig2,
+  #fig3,
+  #fig4,
+  #fig5,
+  #fig6 {
+  
+    box-shadow: 0px 0px 4px 5px #f2f2f2;
+  }
+  #hebergements img {
+    width: 100%;
+  }
+  .plus {
+    font-size: 17px;
+  }
+  /*******************aside******************/
+.main{
+
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+  #populaires {
+   width: 100%;
+    border-radius: 0;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  #encarts_populaires{
+    margin-left: 8rem;
+    margin-right: 20px;
+  }
+ 
+  #graph i {
+    font-size: 28px;
+    margin-right: 1.5rem;
+  }
+  #fig7 img,
+  #fig8 img,
+  #fig9 img {
+    width: 10rem;
+  }
+  #legend7,
+  #legend8,
+  #legend9 {
+    width: 50%;
+   
+  }
+#card1,
+#card2,
+#card3 {
+  display: flex;
+ 
+}
+  /************************activites*******************/
+  #activites {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  #activitesmarseille{
+    padding-top: 0rem;
+    margin-top: 0rem;
+    font-size: 30px;
+  }
+ 
+  #bloc1,
+  #bloc3 {
+    flex-direction: column;
+  }
+
+  #activitesmarseille {
+    font-size: 30px;
+  }
+  #vieux_port,
+  #parc_national_des_calanques,
+  #fort_de_pomegues,
+  #ile_de_frioul,
+  #notre_dame_de_la_garde,
+  #parc_longchamp {
+    height: 160px;
+    width: 80%;
+  }
+  #leg1,
+  #leg2,
+  #leg3,
+  #leg4,
+  #leg5,
+  #leg6 {
+    width: 79%;
+    padding-left: 5px;
+    font-size: 14px;
+  }
+ /* #chem1,
+  #chem2,
+  #chem3,
+  #chem4,
+  #chem5,
+  #chem6 {
+    width: 100%;
+    height: 201px;
+    border-radius: 13px 13px 13px 13px;
+  }*/
+  /***********************Footer**************************/
+  footer {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 5rem;
+  }
+  #apropos,
+  #heb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #assistance {
+    flex-wrap: nowrap;
+    align-items: center;
+    
+  }
+}
+
+/*body {
+  width: fit-content;
+  max-width: 1440px;
+  font-family: "Raleway", sans-serif;
   margin: auto;
   overflow-x: hidden;
 }
 
-#contener{
- /*width: 100%;*/
+/*#contener{
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -20,7 +1078,6 @@ body {
 }
 
 header {
-  /*width: 100%;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -107,7 +1164,7 @@ button {
 
 /**********************************filtres*********************/
 
-#bloc-filtres {
+/*#bloc-filtres {
   display: flex;
   flex-direction: row;
   font-weight: bold;
@@ -131,7 +1188,7 @@ button {
 
 #trie i {
   color: #0065fc;
-  border: 1px solid #deebff;
+  border: 1px solid rgb(185, 233, 241);
   border-radius: 30px;
   background-color: #deebff;
   width: 2.3rem;
@@ -195,12 +1252,13 @@ h2 {
   font-size: 16px;
 }
 /***************************hebergements*****************/
-#hebergements {
-  width: /*765px;*/ 43rem;
+/*#hebergements {
+  /*width:/* 43rem; 62%;
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
   border-radius: 13px;
   margin-left: 20px;
+  
 }
 
 #hebergements h2 {
@@ -221,8 +1279,8 @@ h2 {
 #fig1,
 #fig2,
 #fig3 {
-  margin-left: 25px;
-  margin-right: 5px;
+  margin-left: 20px;
+  margin-right: 25px;
   border: 1px solid #f2f2f2;
   padding: 3px 3px 3px 3px;
   background-color: #fff;
@@ -234,8 +1292,8 @@ h2 {
 #fig4,
 #fig5,
 #fig6 {
-  margin-left: 25px;
-  margin-right: 5px;
+  margin-left: 20px;
+  margin-right: 25px;
   border: 1px solid #f2f2f2;
   padding: 3px 3px 3px 3px;
   background-color: #fff;
@@ -245,7 +1303,7 @@ h2 {
 
 #bloc123,
 #bloc456 {
-  margin-left: 15px;
+  /*margin-left: 15px;
   display: flex;
 }
 
@@ -297,10 +1355,9 @@ h2 {
 
 /****************************** aside************************/
 
-#populaires {
-  width: 20rem;
+/*#populaires {
   background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #fff;
   border-radius: 13px;
 }
 
@@ -313,7 +1370,7 @@ h2 {
 #entete {
   display: flex;
   justify-content: space-between;
-  height: auto;
+  /*height: auto;
   
 }
 
@@ -336,6 +1393,8 @@ h2 {
   margin-bottom: 1rem;
   padding-left: 1.5rem;
   margin-top: 1.5rem;
+  margin-right: 1.5rem;
+
 }
 
 #fig7 img,
@@ -349,6 +1408,7 @@ h2 {
   border-top-left-radius: 13px;
   border-bottom-left-radius: 13px;
   background-color: #fff;
+  
 }
 
 #legend7,
@@ -372,7 +1432,7 @@ h2 {
 
 /****************************activites**************************/
 
-#activitesmarseille {
+/*activitesmarseille {
   padding-left: 2rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -390,10 +1450,10 @@ h2 {
   display: inline-flex;
   flex-direction: column-reverse;
 }
-
-/*#chem1,
+/*
+#chem1,
 #chem4 {
- /* width: 220px; /*16rem;
+ width: 220px;   /*16rem;
   height: 280px;
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 20px;
@@ -402,7 +1462,7 @@ h2 {
 
 #chem2,
 #chem3 {
-  /*width: 220px;
+  width: 220px;
   height: 127px;
   position: relative;
   top: 11px;
@@ -413,19 +1473,19 @@ h2 {
 
 #chem5,
 #chem6 {
- /* width: 224px;
+  width: 224px;
   height: 127px;
   position: relative;
   top: 12px;
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 25px;
-}*/
+}
 
 #fort_de_pomegues,
 #ile_de_frioul,
 #notre_dame_de_la_garde,
 #parc_longchamp {
-  width: /*220px;*/12.3rem;
+  width: /*220px;12.3rem;
   height: 90px;
   object-fit: cover;
   border: 1px solid #f2f2f2;
@@ -437,7 +1497,7 @@ h2 {
 
 #vieux_port,
 #parc_national_des_calanques {
-  width: /*220px;*/ 12.3rem;
+  width: /*220px;12.3rem;
   height: 250px;
   object-fit: cover;
   border-top-left-radius: 13px;
@@ -470,16 +1530,46 @@ h2 {
 
 /*footer*/
 
-footer {
-  width: 80rem;
+/*footer{
+
+border: 1px solid #F2F2F2;
+background-color: #F2F2F2; 
+display: flex;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+footer a{
+ text-decoration: none;
+  color: black;
+  line-height: 1.5;
+padding-left: 20px;
+}
+
+h4{
+  font-weight: bold;
+  padding-left: 20px;
+   padding-bottom: 10px; 
+  }
+
+#apropos{
+  padding-right: 200px;
+  }
+#assistance{
+  padding-right: 200px;
+}
+
+#noshebergements{ 
+  padding-right: 250px; 
+
+}
+
+footer{
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 30px; 
-  border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
-  padding-top: 20px;
-  margin-top: 50px;
 }
 
 #apropos {
@@ -545,23 +1635,29 @@ footer {
   list-style-type: none;
 }
 
-/*------------------------------------------------ partie mobile----------------------------------------------- */
+/*------------------------------------------------ partie mobile-----------------------------------------------*/
 
-@media all and (max-width: 699px) {
+/*@media all and (max-width: 699px) {
   body {
     box-sizing: border-box;
     overflow-x: hidden;
+    margin:0px;
+    padding: 0px;
   }
 
   header {
     flex-direction: column;
-    padding-right: 5px;
-    margin-left: auto;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*margin-bottom: 200px;
+
   }
 
   #bloc_page {
     margin: 0px;
     padding: 0px;
+   /* margin-top: 200px;
   }
 
   .logo-reservia {
@@ -570,15 +1666,21 @@ footer {
 
   .logo-reservia img {
    width: 19%;
-    padding-left: 5px;
+  margin-left: 5px;
   }
 
   .ancres {
+    width: 100%;
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
 
+  nav{
+    width: 100%;
+  }
+
   nav ul {
+    width: 100%;
     padding: 0px;
   }
 
@@ -606,22 +1708,24 @@ footer {
   }
 
   nav li:hover {
-    border-color: #0065fc;
+   border-color: #0065fc;
     color: #0065fc;
   }
 
-  #bloc-page{
-    padding-left: 0.5rem;
-  }
+  /*#bloc-page{
+    padding-left: 10px;
+    padding-right: 0px;
+  }*/
+
+  /*bloc recherche
 
   .champ-de-saisie {
     margin-left: 10px;
   }
 
   .lieux {
-    width: 10%;
+   /* width: 10%;
     height: 25px;
-    flex-direction: column;
   }
 
   input {
@@ -629,7 +1733,7 @@ footer {
   }
 
   button {
-    width: 15%;
+   /* width: 15%;
     flex-wrap: nowrap;
   }
 
@@ -642,12 +1746,13 @@ footer {
   }
 
   h1 {
-    width: 70%;
+    /*width: 70%;
     line-height: 20px;
+    padding-right: 120px;
   }
 
   /*****************Filtres******************/
-  #bloc-filtres {
+  /*#bloc-filtres {
     flex-wrap: wrap;
   }
 
@@ -671,36 +1776,34 @@ footer {
   }
 
   #information{
-    margin-right: 2px;
-    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     
   }
 
   /****************************hebergements********************/
-  #hebergements {
+  /*#hebergements {
     flex-direction: column;
     justify-content: space-between;
-    /*width: 100%;*/
+   /* width: 100%;
     background-color: #fff;
     border: none;
-    margin-top: 33rem;
-    margin-left: 0.1rem;
+    margin-bottom: 0rem;
   }
 
   #hebergements_a_marseille {
-   padding-bottom: 1rem;
+   margin-bottom: 10px;
+   height: 20px;
   }
 
   #bloc123 {
     display: block;
     flex-direction: column;
-    margin-left: 0rem;
   }
 
   #bloc456 {
     display: block;
     flex-direction: column;
-    margin-left: 0rem;
   }
 
   #fig1,
@@ -709,29 +1812,44 @@ footer {
   #fig4,
   #fig5,
   #fig6 {
-    width: 85.7%;
     box-shadow: 0px 0px 4px 5px #f2f2f2;
     margin-top: 10px;
     margin-bottom: 17px;
   }
 
   #hebergements img {
-    width: 99%;
+    width: 100%;
+  }
+
+  
+  .main{
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   /*******************aside******************/
-  .main{
-    margin-right: 0rem;
-    margin-left: 0rem;
-  }
-  #populaires {
-    width: 23.3rem;
-    position: absolute;
+
+  /*#populaires {
+
+    max-width: 100%;
+   /*display: block;*/
+    /*min-width: 100%;
+    /*width: 23.3rem;
+    /*position: absolute;
     top: 0px;
-    margin-top: 38rem;
-    border-radius: 0px 0px;
-    margin-left: 0;
+    margin-bottom: 38rem;
+    /*margin-top: 38rem;*/
+    /*border-radius: 0px 0px;
+  /* margin-left: 0px;
     margin-right: 0;
+    /*margin-bottom: 0px;
+   /* margin-right: 90px;*/
+    /*width: 370px;
+    /*height: 550px;*/
+    /*margin: 0px;
+    padding: 0px;
   }
 
   h2 {
@@ -739,41 +1857,57 @@ footer {
   }
 
   #graph i {
-    font-size: 28px;
-    margin-right: 5px;
+    font-size: 25px;
+    margin-right: 15px;
   }
 
   #fig7 img,
   #fig8 img,
   #fig9 img {
-    width: /*160px*/10rem;
-    height: 120px;
-  }
+    
+   /*width: 100%;
+  /* height: 120px;*/
+   /*margin-right: 45px;
+  } 
 
   #legend7,
   #legend8,
   #legend9 {
-    width: /*160px;*/ 10rem;
-    height: 115px;
+   /* width: 160px; 10rem;*/
+   /* height: 115px;
+   margin-right: 40px;
   }
+
+   #card1,
+   #card2,
+   #card3{
+     margin-left: 25px;
+  }
+
   /************************activites*******************/
 
-  #activities {
+  /*#activites {
+    max-width: 100%;
+    /*display: block;
     flex-direction: column;
-    flex-wrap: nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*flex-wrap: nowrap;
     justify-content: space-evenly;
-    margin-right: 10px;
-
+    /*margin-right: 10px;
+    /*padding-bottom: 50px;
+    margin-bottom: 80px;
   }
 
   #activitesmarseille {
     font-size: 25px;
-    padding-top: 0rem;
+   /* padding-top: 0rem;
     margin-top: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0px;*/
+   /* padding-top: 5px;
   }
 
-  #bloc1{
+  /*#bloc1{
     margin-bottom: 0rem;
   }
  
@@ -783,13 +1917,14 @@ footer {
     bottom: 0px;
   }
 
-  #bloc4 {
+ /* #bloc4 {
   top: 0px;
   bottom: 0px;
-  }
+  }*/
 
-  #activitesmarseille {
+ /* #activitesmarseille {
   margin-left: 25px;
+  margin-bottom: 0px;
   }
 
   #vieux_port,
@@ -798,8 +1933,11 @@ footer {
   #ile_de_frioul,
   #notre_dame_de_la_garde,
   #parc_longchamp {
-    height: 160px;
-    width: /*320px;*/ 19.8rem;
+    /*height: 160px;
+   width: 100%;
+   height: 30%;
+   padding-left: 0px;
+   padding-top: 15px;
   }
 
   #leg1,
@@ -808,26 +1946,28 @@ footer {
   #leg4,
   #leg5,
   #leg6 {
-    width: /*310px;*/19.2rem;
+   /*width: 310px;
   }
 
-  #chem1,
+/* #chem1,
   #chem2,
   #chem3,
   #chem4,
   #chem5,
   #chem6 {
-    width: /*320px;*/ 24.5rem;
-    height: 201px;
-    border-radius: 13px 13px 13px 13px;
-    margin-left: 25px;
+    /*width: 100%;
+    /*height:
+   /* width: 24.5rem;
+   /* height: 201px;*/
+    /*border-radius: 13px 13px 13px 13px;*/
+    /*margin-left: 25px;
   }
 
   /***********************Footer**************************/
-
-  footer {
+  /*footer {
     display: grid;
     flex-direction: column;
+    width: 390px;
     width: 25rem;
     margin-top: 5rem;
   }
@@ -837,8 +1977,56 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
   }
-
   #apropos h4{
+    margin-left: 40px;
+  }
+  #apropos ul{
+    padding-left: 40px;
+  }
+  #heb {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+  }
+  #heb ul{
+   padding-left: 20px;
+  }
+  #heb h4{
+    margin-left: 20px;
+  }
+  #assistance {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+  }
+  #assistance h4
+  {
+    margin-left: 20px;
+  }
+  #assistance ul{
+    padding-left: 20px;
+
+ /* footer {
+  
+
+    display: grid ;
+    flex-direction: column;
+    /*margin-top: 20px;
+    /*margin: 0px;
+    /*padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+ #apropos{
+    /*display: grid;
+    /*display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+    #apropos h4{
     margin-left: 40px;
   }
 
@@ -862,7 +2050,7 @@ footer {
   }
 
   #assistance {
-    display: grid;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 25px;
@@ -870,7 +2058,7 @@ footer {
 
   #assistance h4
   {
-    margin-left: 20px;
+   margin-left: 20px;
   }
 
   #assistance ul{
@@ -880,7 +2068,7 @@ footer {
 
 /*************************************Tablette*******************************************/
 
-@media all and (min-width: 700px) and (max-width: 1024px) {
+/*@media all and (min-width: 700px) and (max-width: 1024px) {
   body {
     width: auto;
     box-sizing: border-box;
@@ -969,13 +2157,13 @@ footer {
     line-height: 20px;
   }
 
-  /***********filtres*/
+  /***********filtres
 
   #trie
   {
     flex-wrap: wrap;
+  }
 
-  }*/
   #bloc-filtres {
     flex-wrap: wrap;
   }
@@ -1017,7 +2205,7 @@ footer {
    margin-bottom: 10px;
   }
 
-  /****************************hebergements*********************/
+  /****************************hebergements********************
 
   #hebergements {
     flex-direction: column;
@@ -1053,7 +2241,7 @@ footer {
   #fig4,
   #fig5,
   #fig6 {
-    width: 140%;
+    width: 100%;
     box-shadow: 0px 0px 4px 5px #f2f2f2;
   }
 
@@ -1065,7 +2253,7 @@ footer {
     font-size: 17px;
   }
 
-  /*******************aside******************/
+  /*******************aside*****************
   #populaires {
     width: 47.8rem;
     position: absolute;
@@ -1112,10 +2300,10 @@ footer {
 #card2,
 #card3 {
   display: flex;
- /* margin-left: 50px;
-  margin-right: 20px;*/
+ margin-left: 50px;
+  margin-right: 20px;
 }
-  /************************activites*******************/
+  /************************activites******************
 
   #activites {
     width: 80%;
@@ -1180,17 +2368,17 @@ footer {
   #chem4,
   #chem5,
   #chem6 {
-    width: 115%;
+    width: 100%;
     height: 201px;
     border-radius: 13px 13px 13px 13px;
   }
 
-  /***********************Footer**************************/
+  /***********************Footer*************************
 
   footer {
     display: flex;
     flex-wrap: nowrap;
-    width: 110%;
+    width: 100%;
     margin-top: 5rem;
   }
 
