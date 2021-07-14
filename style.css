@@ -202,6 +202,19 @@ h2 {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
+
+.test
+{
+  margin-left: 25px;
+  margin-right: 5px;
+  border: 1px solid #f2f2f2;
+  padding: 3px 3px 3px 3px;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
 #fig4,
 #fig5,
 #fig6 {
@@ -328,32 +341,31 @@ h2 {
 /****************************activites**************************/
 
 #activites{
-
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 7rem;
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 
 #activitesmarseille {
-
-  padding-top: 12rem;
-  font-weight: bold;
-  font-size: 16px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  margin-bottom: 0px;
   height: 0px;
+  width: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.activitebloc{
+display: flex;
+align-items: center;
+padding-top: 7rem;
+
+
 }
 
 #bloc1,
 #bloc3 {
   display: flex;
-  margin-right: 30px;
- 
-  margin-top: 8rem;*/
-  
+  margin-right: 30px; 
 }
+
 #bloc2,
 #bloc4 {
   display: flex;
@@ -411,7 +423,7 @@ h2 {
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
   border: 1px solid #f2f2f2;
-  box-shadow: 1px 1px 15px #f2f2f2;
+  box-shadow: 1px 1px 15px #f2f2f2;*/
 }
 #leg1,
 #leg2,
@@ -420,13 +432,12 @@ h2 {
 #leg5,
 #leg6 {
   display: flex;
- /* width: 13.1rem;*/
   width: 11.7rem;
   height: 34px;
   border: 1px solid #f2f2f2;
-  position: relative;
+ /* position: relative;*/
  /* bottom: 6px;*/
-  bottom: 5px;
+ /* bottom: 5px;*/
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
   background-color: #fff;
@@ -443,13 +454,14 @@ footer{
 
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
 }
 
 #apropos {
+  display: flex;
  
   margin-right: 0px;
   margin-left: 5px;
