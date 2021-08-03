@@ -4,15 +4,8 @@ body {
   width: fit-content;
   max-width: 1440px;
   font-family: "Raleway", sans-serif;
-  /*margin: auto;*/
   overflow-x: hidden;
 }
-
-/*#contener{
- /*width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
-}*/
 
 #bloc-page {
   padding-left: 20px;
@@ -28,11 +21,11 @@ header {
 nav ul {
   list-style-type: none;
   display: flex;
-  padding-right: 120px;
+  padding-right: 40px;
   padding-top: 3px;
 }
 nav li {
-  margin-right: 40px;
+  margin-left: 40px;
 }
 nav a {
   color: black;
@@ -58,7 +51,6 @@ a {
   text-decoration: none;
 }
 #lieux {
-  display: inline-flex;
   background-color: #f2f2f2;
   padding-left: 9px;
   padding-right: 7px;
@@ -71,8 +63,7 @@ input {
   width: 13%;
   height: 29px;
   border: 1px solid #f2f2f2;
-  margin-right: 0px;
-  
+  margin-left: 0px;
 }
 button {
   width: 8%;
@@ -85,8 +76,9 @@ button {
   color: #fff;
   align-items: center;
   font-size: 13px;
+  margin-left: 0px;
 }
-#text_rechercher{
+#text_rechercher {
   display: initial;
 }
 #search {
@@ -171,7 +163,7 @@ h2 {
 }
 /***************************hebergements*****************/
 #hebergements {
-  width: /*765px;*/ 43rem;
+  width: 43rem;
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
   border-radius: 13px;
@@ -203,8 +195,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.test
-{
+.test {
   margin-left: 25px;
   margin-right: 5px;
   border: 1px solid #f2f2f2;
@@ -248,7 +239,7 @@ h2 {
 #etoile_gris4,
 #etoile_grise5,
 #etoile_grise8,
-#etoile_grise9{
+#etoile_grise9 {
   color: grey;
 }
 #legend1,
@@ -271,7 +262,7 @@ h2 {
 .plus {
   padding-left: 2rem;
   padding-bottom: 1rem;
-  font-size: 13px ;
+  font-size: 13px;
 }
 /****************************** aside************************/
 #populaires {
@@ -280,16 +271,15 @@ h2 {
   border: 1px solid #f2f2f2;
   border-radius: 13px;
 }
-.main{
+.main {
   display: flex;
   justify-content: space-between;
-  margin-right: 250px;
+  margin-right: 48px;
 }
 #entete {
   display: flex;
   justify-content: space-between;
   height: auto;
-  
 }
 #titre {
   margin-top: 1.5rem;
@@ -297,8 +287,8 @@ h2 {
   margin-left: 0.3rem;
 }
 #graph {
- padding-top: 2rem;
- padding-right: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
 }
 #card1,
 #card2,
@@ -340,73 +330,72 @@ h2 {
 }
 /****************************activites**************************/
 
-#activites{
+.activitebloc {
   display: flex;
-  margin-top: 5rem;
 }
 
 #activitesmarseille {
-  height: 0px;
-  width: 0px;
-  padding: 0px;
-  margin: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-
-.activitebloc{
-display: flex;
-align-items: center;
-padding-top: 7rem;
-
-
-}
-
 #bloc1,
 #bloc3 {
   display: flex;
-  margin-right: 30px; 
+  margin-right: 30px;
 }
 
 #bloc2,
 #bloc4 {
   display: flex;
   flex-direction: column-reverse;
-  /*margin-top: 8rem;*/
 }
 
-/*#chem1,
-#chem4 {
+.chem1,
+.chem4 {
   width: 220px;
-  height: 280px;
+  height: 363px;
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 20px;
   margin-right: 20px;
 }
-#chem2,
-#chem3 {
+
+.figure-img,
+.fig_image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 1px 1px 15px #f2f2f2;
+}
+
+.chem2,
+.chem3 {
   width: 220px;
-  height: 127px;
-  position: relative;
-  top: 11px;
+  height: 150px;
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom: 40px;
 }
-#chem5,
-#chem6 {
-  width: 224px;
-  height: 127px;
-  position: relative;
-  top: 12px;
+
+.chem5,
+.chem6 {
+  width: 220px;
+  height: 150px;
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 25px;
-}*/
+  margin-right: 25px;
+  margin-bottom: 40px;
+}
 
-#fort_de_pomegues,
-#ile_de_frioul,
-#notre_dame_de_la_garde,
+#fort-de-pomegues,
+#ile-de-frioul,
+#Notre-Dame-de-La-Garde,
 #parc_longchamp {
   width: 220px;
- /* width: /*220px;12.3rem;*/
   height: 90px;
   object-fit: cover;
   border: 1px solid #f2f2f2;
@@ -415,29 +404,11 @@ padding-top: 7rem;
   box-shadow: 1px 1px 10px #f2f2f2;
 }
 
-#vieux_port,
-#parc_national_des_calanques {
-  width: 220px;
-  height: 250px;
-  object-fit: cover;
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
-  border: 1px solid #f2f2f2;
-  box-shadow: 1px 1px 15px #f2f2f2;*/
-}
-#leg1,
-#leg2,
-#leg3,
-#leg4,
-#leg5,
-#leg6 {
+.legende {
   display: flex;
-  width: 11.7rem;
-  height: 34px;
+  width: 210px;
+  height: 52px;
   border: 1px solid #f2f2f2;
- /* position: relative;*/
- /* bottom: 6px;*/
- /* bottom: 5px;*/
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
   background-color: #fff;
@@ -448,81 +419,51 @@ padding-top: 7rem;
   box-shadow: 1px 1px 15px #f2f2f2;
 }
 
+.monu2 {
+  margin-top: 65px;
+}
+
+.monu5 {
+  margin-top: 60px;
+}
+
 /*footer*/
 
-footer{
-
-  width: 100%;
+#footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  border: 1px solid #f2f2f2;
-  background-color: #f2f2f2;
+  width: 100%;
+  margin-top: 100px;
 }
 
-#apropos {
+.tests {
   display: flex;
- 
-  margin-right: 0px;
-  margin-left: 5px;
-  line-height: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-#apropos h4 {
-  color: black;
-  font-size: 13px;
-  
+.tests h4 {
+  margin-left: 40px;
 }
 
-#apropo li,
-#hebe li,
-#assistances li {
-  font-size: 14px;
-  color: black;
-}
-
-#apropo li :hover,
-#hebe li :hover,
-#assistances li :hover {
-  color: #0065fc;
-}
-
-#apropo a,
-#hebe a,
-#assistances a {
-  color: black;
-  font-size: 12px;
-}
-#heb {
- 
- margin-right: 40px;
-  line-height: 20px;
-}
-#heb h4 {
-  color: black;
-  font-size: 13px;
-}
-
-#heb ul,
-#assistance ul,
-#apropos ul
- {
+.apropo {
+  padding-right: 200px;
+  padding-left: 40px;
   list-style-type: none;
-}
-
-#assistance {
- 
-  /*argin-right: 50px;*/
-  line-height: 20px;
-}
-
-#assistance h4 {
   color: black;
-  font-size: 13px;
+}
+
+.tests a {
+  color: black;
+  font-size: 14px;
+}
+
+.tests a:hover {
+  color: #0065fc;
 }
 
 /*------------------------------------------------ partie mobile----------------------------------------------- */
 
-@media all and (max-width: 699px) {
+@media all and (min-width: 320px) and (max-width: 699px) {
   body {
     width: 100%;
     margin: 0px;
@@ -537,7 +478,6 @@ footer{
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    
   }
 
   #bloc_page {
@@ -547,7 +487,6 @@ footer{
   }
   .logo-reservia {
     margin-bottom: 20px;
-    
   }
   .logo-reservia img {
     width: 19%;
@@ -591,7 +530,7 @@ footer{
     border-color: #0065fc;
     color: #0065fc;
   }
-  #bloc-page{
+  #bloc-page {
     padding-left: 0.5rem;
   }
   .champ-de-saisie {
@@ -609,7 +548,7 @@ footer{
     width: 15%;
     flex-wrap: nowrap;
   }
-  #text_rechercher{
+  #text_rechercher {
     display: none;
   }
   #search {
@@ -619,6 +558,7 @@ footer{
     width: 70%;
     line-height: 20px;
   }
+
   /*****************Filtres******************/
   #bloc-filtres {
     flex-wrap: wrap;
@@ -635,13 +575,12 @@ footer{
     margin-top: 30px;
     margin-bottom: 0px;
   }
-  #icone-info{
+  #icone-info {
     padding: 5px 8px 5px 8px;
   }
-  #information{
+  #information {
     margin-right: 2px;
     margin-bottom: 40px;
-    
   }
   /****************************hebergements********************/
   #hebergements {
@@ -655,7 +594,7 @@ footer{
   }
 
   #hebergements_a_marseille {
-   padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 
   #bloc123 {
@@ -685,12 +624,12 @@ footer{
   }
 
   /*******************aside******************/
-  .main{
+  .main {
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column-reverse;
-    /*width: 100%;*/
+    width: 100%;
   }
   #populaires {
     width: 100%;
@@ -705,25 +644,24 @@ footer{
     font-size: 28px;
     margin-right: 5px;
   }
-  /*#fig7 img,
+  #fig7 img,
   #fig8 img,
   #fig9 img {
-    /*width: 160px;
-    height: 120px;*/
+    width: 160px;
+    height: 120px;
   }
 
- /* #legend7,
+  #legend7,
   #legend8,
   #legend9 {
     width: 160px;
     height: 115px;
-  }*/
+  }
   /************************activites*******************/
   #activities {
     width: 100%;
     flex-direction: column;
-    flex-wrap: nowrap;
-    /*justify-content: space-evenly;*/
+    flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
   }
@@ -735,104 +673,92 @@ footer{
     margin-left: 0px;
     padding-left: 20px;
   }
-  #bloc1{
-    width: 80%;
-    margin-bottom: 0rem;
-   /* margin-: 0px;
-    padding-right: 0px;*/
-  }
- 
-  #bloc2{
-    width: 80%;
-    margin-bottom: 0rem;
-    top: 0px;
-    bottom: 0px;
-  }
-  #bloc4 {
-    width: 80%;
-  top: 0px;
-  bottom: 0px;
-  }
-  
-  /*#activitesmarseille {
-  margin-left: 25px;
-  }*/
 
-  #vieux_port,
-  #parc_national_des_calanques,
-  #fort_de_pomegues,
-  #ile_de_frioul,
-  #notre_dame_de_la_garde,
-  #parc_longchamp {
-    height: 160px;
-    width: 320px;
-  }
-
-  #leg1,
-  #leg2,
-  #leg3,
-  #leg4,
-  #leg5,
-  #leg6 {
-    width: 310px;
-  }
-
-  #chem1,
-  #chem2,
-  #chem3,
-  #chem4,
-  #chem5,
-  #chem6 {
-
-    margin: 0px;
-    padding-left: 20px;
-  }
-  /***********************Footer**************************/
-  footer {
-   width:100%;
+  .activitebloc {
     display: flex;
     flex-direction: column;
+  }
+  #bloc1 {
+    width: 221px;
+    margin-bottom: 110px;
+    margin-left: 60px;
+    margin-right: 0px;
+  }
+
+  #bloc2 {
+    width: 221px;
+    margin-left: 60px;
+    margin-bottom: 90px;
+    margin-right: 0px;
+  }
+
+  #bloc3 {
+    width: 221px;
+    margin-left: 60px;
+    margin-bottom: 110px;
+    margin-top: 40px;
+    margin-right: 0px;
+  }
+
+  #bloc4 {
+    width: 221px;
+    margin-left: 60px;
+    margin-bottom: 90px;
+    margin-right: 0px;
+  }
+
+  #activitesmarseille {
+    margin-left: 25px;
+  }
+
+  #vieux_port,
+  #parc-national-des-calanques,
+  #fort-de-pomegues,
+  #ile-de-frioul,
+  #Notre-Dame-de-La-Garde,
+  #parc_longchamp {
+    height: 160px;
+    width: 100%;
+  }
+
+  .legende {
+    width: 210px;
+  }
+
+  .chem1,
+  .chem2,
+  .chem3,
+  .chem4,
+  .chem5,
+  .chem6 {
+    margin: 0px;
+  }
+
+  .monu3 {
+    margin-bottom: 55px;
+  }
+
+  .monu5 {
+    margin-top: 123px;
+  }
+
+  /***********************Footer**************************/
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
   }
 
-  #apropos {
+  .test {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-  }
-  #apropos h4{
-    margin-left: 40px;
-  }
-  #apropos ul{
-    padding-left: 40px;
-  }
-  #heb {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 25px;
-  }
-  #heb ul{
-   padding-left: 20px;
-  }
-  #heb h4{
-    margin-left: 20px;
-  }
-  #assistance {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 25px;
-  }
-  #assistance h4
-  {
-    margin-left: 20px;
-  }
-  #assistance ul{
-    padding-left: 20px;
   }
 }
+
 /*************************************Tablette*******************************************/
 @media all and (min-width: 700px) and (max-width: 1024px) {
   body {
@@ -841,7 +767,6 @@ footer{
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
-    
   }
   header {
     flex-direction: column;
@@ -896,7 +821,7 @@ footer{
     flex-direction: column;
   }
   input {
-   width: 40%;
+    width: 40%;
   }
   button {
     width: 15%;
@@ -907,18 +832,19 @@ footer{
     line-height: 20px;
   }
   /***********filtres*/
-  #trie
-  {
+  #trie {
     flex-wrap: wrap;
-  }*/
+  }
+
   #bloc-filtres {
     flex-wrap: wrap;
   }
+
   #filtres-titres {
     padding-top: 10px;
     margin-right: 20px;
   }
-  
+
   #eco,
   #famille,
   #romantique,
@@ -930,7 +856,7 @@ footer{
     margin-right: 20px;
     padding-bottom: 4px;
   }
-  
+
   #argent,
   #enfant,
   #coeur,
@@ -946,7 +872,7 @@ footer{
     padding-left: 5px;
   }
   #trie li {
-   margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   /****************************hebergements*********************/
   #hebergements {
@@ -968,7 +894,6 @@ footer{
   #bloc456 {
     display: block;
     flex-direction: column;
-   
   }
   #fig1,
   #fig2,
@@ -976,7 +901,6 @@ footer{
   #fig4,
   #fig5,
   #fig6 {
-  
     box-shadow: 0px 0px 4px 5px #f2f2f2;
   }
   #hebergements img {
@@ -986,27 +910,26 @@ footer{
     font-size: 17px;
   }
   /*******************aside******************/
-.main{
-
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex-direction: column-reverse;
-  width: 100%;
-}
+  .main {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 
   #populaires {
-   width: 100%;
+    width: 785px;
     border-radius: 0;
   }
   h2 {
     font-size: 22px;
   }
-  #encarts_populaires{
+  #encarts_populaires {
     margin-left: 8rem;
     margin-right: 20px;
   }
- 
+
   #graph i {
     font-size: 28px;
     margin-right: 1.5rem;
@@ -1020,26 +943,30 @@ footer{
   #legend8,
   #legend9 {
     width: 50%;
-   
   }
-#card1,
-#card2,
-#card3 {
-  display: flex;
- 
-}
+  #card1,
+  #card2,
+  #card3 {
+    display: flex;
+  }
   /************************activites*******************/
   #activites {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
   }
-  #activitesmarseille{
+  #activitesmarseille {
     padding-top: 0rem;
     margin-top: 0rem;
     font-size: 30px;
   }
- 
+
+  .activitebloc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   #bloc1,
   #bloc3 {
     flex-direction: column;
@@ -1055,19 +982,14 @@ footer{
   #notre_dame_de_la_garde,
   #parc_longchamp {
     height: 160px;
-    width: 80%;
+    width: 100%;
   }
-  #leg1,
-  #leg2,
-  #leg3,
-  #leg4,
-  #leg5,
-  #leg6 {
-    width: 79%;
+  .legende {
+    width: 100%;
     padding-left: 5px;
     font-size: 14px;
   }
- /* #chem1,
+  #chem1,
   #chem2,
   #chem3,
   #chem4,
@@ -1076,26 +998,33 @@ footer{
     width: 100%;
     height: 201px;
     border-radius: 13px 13px 13px 13px;
-  }*/
-  /***********************Footer**************************/
-  footer {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    margin-top: 5rem;
   }
-  #apropos,
-  #heb {
+  /**********************Footer**************************/
+   
+  footer {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  #assistance {
     flex-wrap: nowrap;
-    align-items: center;
-    
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .tests h4 {
+    margin-left: 20px;
+  }
+
+  .apropo {
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+
+  #heb {
+    padding-right: 50px;
   }
 }
-
