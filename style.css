@@ -743,20 +743,26 @@ h2 {
   }
 
   /***********************Footer**************************/
-  footer {
+  #footer {
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
+    margin-top: 50px;
   }
 
-  .test {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  .apropo{
+    padding-right: 0px;
+    padding-left: 20px;
   }
+
+  .tests h4{
+    margin-left: 20px;
+  }
+
+  
 }
 
 /*************************************Tablette*******************************************/
