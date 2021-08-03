@@ -21,7 +21,7 @@ header {
 nav ul {
   list-style-type: none;
   display: flex;
-  padding-right: 40px;
+  padding-right: 130px;
   padding-top: 3px;
 }
 nav li {
@@ -274,7 +274,7 @@ h2 {
 .main {
   display: flex;
   justify-content: space-between;
-  margin-right: 48px;
+  margin-right: 155px;
 }
 #entete {
   display: flex;
@@ -753,15 +753,14 @@ h2 {
     margin-top: 50px;
   }
 
-  .apropo{
+  .apropo {
     padding-right: 0px;
     padding-left: 30px;
   }
 
-  .tests h4{
+  .tests h4 {
     margin-left: 30px;
   }
-  
 }
 
 /*************************************Tablette*******************************************/
@@ -1005,7 +1004,7 @@ h2 {
     border-radius: 13px 13px 13px 13px;
   }
   /**********************Footer**************************/
-   
+
   footer {
     width: 100%;
     display: flex;
