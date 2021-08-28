@@ -58,14 +58,13 @@ a {
   padding-bottom: 8px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-
 }
 
 input {
   width: 13%;
   height: 29px;
   border: 1px solid #f2f2f2;
-  margin:-6px;
+  margin: -6px;
 }
 
 button {
@@ -279,7 +278,6 @@ h2 {
 .main {
   display: flex;
   justify-content: space-between;
- 
 }
 #entete {
   display: flex;
@@ -383,12 +381,12 @@ h2 {
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 25px;
   margin-right: 25px;
- /* margin-bottom: 40px;*/
+  /* margin-bottom: 40px;*/
 }
 
 .chem5,
 .chem6 {
-  width: 220px;
+  width: 218px;
   height: 150px;
   box-shadow: 1px 1px 10px #f2f2f2;
   margin-left: 25px;
@@ -400,7 +398,6 @@ h2 {
 #ile-de-frioul,
 #Notre-Dame-de-La-Garde,
 #parc_longchamp {
-  width: 220px;
   height: 90px;
   object-fit: cover;
   border: 1px solid #f2f2f2;
@@ -410,20 +407,21 @@ h2 {
 }
 
 .legende {
-  height: 52px;
+  height: 53px;
+  width: 210px;
   background-color: #fff;
-  font-size: 12px; 
+  font-size: 12px;
   padding-left: 10px;
   color: black;
   box-shadow: 1px 0px 15px #e7dddd;
-  margin-top: -16px;
+  margin-top: -6px;
+  padding-top: 10px;
+  
 }
 .monu3,
-.monu6{
-
+.monu6 {
   margin-top: 85px;
 }
-
 
 /*footer*/
 
@@ -445,7 +443,7 @@ h2 {
 }
 
 .apropo {
-  padding-right: 200px;
+  padding-right: 190px;
   padding-left: 80px;
   list-style-type: none;
   color: black;
@@ -467,7 +465,7 @@ h2 {
     width: 100%;
     margin: 0px;
     padding: 0px;
-   /* box-sizing: border-box;
+    /* box-sizing: border-box;
     overflow-x: hidden;*/
   }
 
@@ -509,16 +507,31 @@ h2 {
   nav li {
     text-align: center;
     width: 60%;
-    border-bottom: 3px solid #f2f2f2;
+   border-bottom: 3px solid #f2f2f2;
     padding-bottom: 10px;
     padding-left: 3rem;
     margin: 0px;
   }
-  nav span {
+
+  #sinscrire{
+  position: absolute;
+  bottom: 660px;
+  left: 100px;
+  border-bottom: none;
+
+  }
+
+ #inscription{
     position: absolute;
     top: 30px;
-    right: 40px;
+    right: 70px;
+    
   }
+
+  nav li #sinscrire a:hover{
+    border-top: none;
+  }
+
   nav a:hover {
     padding-top: 37px;
   }
@@ -529,13 +542,13 @@ h2 {
     border-color: #0065fc;
     color: #0065fc;
   }
- #bloc-page {
+
+  #bloc-page {
     padding-left: 0.5rem;
   }
 
   .champ-de-saisie {
-  margin-left: 10px;
-    
+    margin-left: 10px;
   }
 
   .lieux {
@@ -543,10 +556,9 @@ h2 {
     height: 25px;
     flex-direction: column;
   }
-   input{
+  input {
     width: 40%;
     height: 30px;
-    
   }
 
   button {
@@ -558,7 +570,6 @@ h2 {
   }
   #search {
     display: initial;
-    
   }
   h1 {
     width: 70%;
@@ -627,6 +638,7 @@ h2 {
 
   #hebergements img {
     width: 100%;
+    height: 120px;
   }
 
   /*******************aside******************/
@@ -685,28 +697,28 @@ h2 {
     flex-direction: column;
   }
   #bloc1 {
-    width: 221px;
-    margin-left: 60px;
+    width: 300px;
+   margin-left: 30px;
     margin-right: 0px;
   }
 
   #bloc2 {
-    width: 221px;
-    margin-left: 60px;
+    width: 300px;
+    margin-left: 30px;
     margin-right: 0px;
     margin-top: 80px;
   }
 
   #bloc3 {
-    width: 221px;
-    margin-left: 60px;
+    width: 300px;
+    margin-left: 30px;
     margin-right: 0px;
     margin-top: 90px;
   }
 
   #bloc4 {
-    width: 221px;
-    margin-left: 60px;
+    width: 300px;
+    margin-left: 30px;
     margin-right: 0px;
     margin-top: 85px;
   }
@@ -726,7 +738,7 @@ h2 {
   }
 
   .legende {
-    width: 210px;
+    width: 290px;
   }
 
   .chem1,
@@ -736,7 +748,23 @@ h2 {
   .chem5,
   .chem6 {
     margin: 0px;
+    height: 175px;
+    width: 300px;
   }
+
+  .figure-img, .fig_image1 {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 1px 1px 15px #f2f2f2;
+  }
+
+ .legende{
+   padding-top: 15px;
+ }
 
 
   /***********************Footer**************************/
@@ -763,9 +791,10 @@ h2 {
     color: black;
     font-size: 14px;
   }
-  
+
   .tests a:hover {
     color: #0065fc;
+  }
 }
 
 /*************************************Tablette*******************************************/
@@ -778,10 +807,13 @@ h2 {
     margin: 0px;
     padding: 0px;
   }
+  
   header {
     flex-direction: column;
     width: 100%;
+    margin: 0px; 
   }
+
   #bloc_page {
     margin-right: 5px;
     margin-left: 5px;
@@ -790,7 +822,8 @@ h2 {
     margin-bottom: 20px;
   }
   .logo-reservia img {
-    width: 18%;
+    max-width: 18%;
+    object-fit: cover;
   }
   .ancres {
     width: 100%;
@@ -803,8 +836,9 @@ h2 {
   nav ul {
     width: 100%;
     padding: 0px;
+    margin-left: -50px;
   }
-  nav li {
+  nav .heber {
     text-align: center;
     width: 100%;
     border-bottom: 3px solid #f2f2f2;
@@ -815,13 +849,21 @@ h2 {
   nav a:hover {
     padding-top: 37px;
   }
-  nav li a:hover {
+  nav .heber a:hover {
     border-top: none;
   }
-  nav li:hover {
+  nav.heber:hover {
     border-color: #0065fc;
     color: #0065fc;
   }
+
+  #sinscrire {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    border-bottom: none;
+  }
+
   .champ-de-saisie {
     margin-left: 10px;
   }
@@ -888,10 +930,11 @@ h2 {
   #hebergements {
     flex-direction: column;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     background-color: #fff;
     border: none;
     margin-top: 3rem;
+    margin: 0px;
   }
   #hebergements_a_marseille {
     font-size: 30px;
@@ -915,6 +958,7 @@ h2 {
   }
   #hebergements img {
     width: 100%;
+    height: 223px;
   }
   .plus {
     font-size: 17px;
@@ -925,12 +969,15 @@ h2 {
     padding: 0px;
     display: flex;
     flex-direction: column-reverse;
+    flex-wrap: nowrap;
     width: 100%;
   }
 
   #populaires {
-    width: 785px;
+    width: 100%;
+    /*width: 785px;*/
     border-radius: 0;
+    margin-right: 0px;
   }
   h2 {
     font-size: 22px;
@@ -959,12 +1006,14 @@ h2 {
   #card3 {
     display: flex;
   }
+
   /************************activites*******************/
+
   #activites {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
+    margin: 0px;
+    padding: 0px;
   }
+
   #activitesmarseille {
     padding-top: 0rem;
     margin-top: 0rem;
@@ -975,11 +1024,23 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0px;
   }
 
+  .monu1{
+    margin-bottom: 35px;
+  }
+  
+
+
+
+
   #bloc1,
-  #bloc3 {
+  #bloc3,
+  #bloc2,
+  #bloc4 {
     flex-direction: column;
+    margin-left: 30px;
   }
 
   #activitesmarseille {
@@ -989,35 +1050,55 @@ h2 {
   #parc_national_des_calanques,
   #fort_de_pomegues,
   #ile_de_frioul,
-  #notre_dame_de_la_garde,
-  #parc_longchamp {
+  #notre_dame_de_la_garde
+  {
     height: 160px;
     width: 100%;
   }
+
   .legende {
     width: 100%;
     padding-left: 5px;
     font-size: 14px;
+    padding-top: 10px;
   }
-  #chem1,
+
+  #parc_longchamp{
+    height: 94px;
+  }
+
+
+  
   #chem2,
-  #chem3,
-  #chem4,
+  #chem3, 
   #chem5,
   #chem6 {
     width: 100%;
     height: 201px;
     border-radius: 13px 13px 13px 13px;
   }
+
+
+  .chem1,
+  .chem4{
+    height: 296px;
+  }
+  .monu3,
+  .monu6{
+    margin-top: 19px;
+  }
+
+ 
+
   /**********************Footer**************************/
 
   footer {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     padding: 0px;
     margin: 0px;
+    margin-top: 120px;
   }
 
   .test {
